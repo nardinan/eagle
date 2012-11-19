@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.versioning.system.cvss.installer">
+    <module_version install_time="1352253545747" last="true" origin="installer" specification_version="1.5.1">
+        <file crc="3063872502" name="config/Modules/org-netbeans-modules-versioning-system-cvss-installer.xml"/>
+        <file crc="316035161" name="modules/locale/org-netbeans-modules-versioning-system-cvss-installer_ja.jar"/>
+        <file crc="2040920539" name="modules/locale/org-netbeans-modules-versioning-system-cvss-installer_pt_BR.jar"/>
+        <file crc="2811278606" name="modules/locale/org-netbeans-modules-versioning-system-cvss-installer_ru.jar"/>
+        <file crc="4053222815" name="modules/locale/org-netbeans-modules-versioning-system-cvss-installer_zh_CN.jar"/>
+        <file crc="3265105376" name="modules/org-netbeans-modules-versioning-system-cvss-installer.jar"/>
+    </module_version>
+</module>

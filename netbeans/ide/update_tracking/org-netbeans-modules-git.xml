@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.git">
+    <module_version install_time="1352253538128" last="true" origin="installer" specification_version="1.7.1.1">
+        <file crc="3921126311" name="config/Modules/org-netbeans-modules-git.xml"/>
+        <file crc="1567509423" name="modules/docs/org-netbeans-modules-git.jar"/>
+        <file crc="2318795821" name="modules/locale/org-netbeans-modules-git_ja.jar"/>
+        <file crc="2324579509" name="modules/locale/org-netbeans-modules-git_pt_BR.jar"/>
+        <file crc="1825772938" name="modules/locale/org-netbeans-modules-git_ru.jar"/>
+        <file crc="4073762372" name="modules/locale/org-netbeans-modules-git_zh_CN.jar"/>
+        <file crc="2509903489" name="modules/org-netbeans-modules-git.jar"/>
+    </module_version>
+</module>

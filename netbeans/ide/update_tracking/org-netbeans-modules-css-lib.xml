@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.css.lib/1">
+    <module_version install_time="1352252266237" last="true" origin="installer" specification_version="1.19.1">
+        <file crc="2846313870" name="config/Modules/org-netbeans-modules-css-lib.xml"/>
+        <file crc="4148133899" name="modules/locale/org-netbeans-modules-css-lib_ja.jar"/>
+        <file crc="359141537" name="modules/locale/org-netbeans-modules-css-lib_pt_BR.jar"/>
+        <file crc="4273924024" name="modules/locale/org-netbeans-modules-css-lib_ru.jar"/>
+        <file crc="1848267211" name="modules/locale/org-netbeans-modules-css-lib_zh_CN.jar"/>
+        <file crc="3497373388" name="modules/org-netbeans-modules-css-lib.jar"/>
+    </module_version>
+</module>

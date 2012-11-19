@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.cnd.litemodel">
+    <module_version install_time="1352250198504" last="true" origin="installer" specification_version="1.10.1.1">
+        <file crc="3377863030" name="config/Modules/org-netbeans-modules-cnd-litemodel.xml"/>
+        <file crc="1066827171" name="modules/locale/org-netbeans-modules-cnd-litemodel_ja.jar"/>
+        <file crc="2045544688" name="modules/locale/org-netbeans-modules-cnd-litemodel_pt_BR.jar"/>
+        <file crc="907959791" name="modules/locale/org-netbeans-modules-cnd-litemodel_ru.jar"/>
+        <file crc="1466976064" name="modules/locale/org-netbeans-modules-cnd-litemodel_zh_CN.jar"/>
+        <file crc="1262905309" name="modules/org-netbeans-modules-cnd-litemodel.jar"/>
+    </module_version>
+</module>

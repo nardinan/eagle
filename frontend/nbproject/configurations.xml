@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="88">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="source" displayName="source" projectFiles="true">
+        <logicalFolder name="environment" displayName="environment" projectFiles="true">
+          <logicalFolder name="countdown" displayName="countdown" projectFiles="true">
+            <itemPath>source/environment/countdown/ccountdown.cpp</itemPath>
+            <itemPath>source/environment/countdown/ccountdown.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="ground" displayName="ground" projectFiles="true">
+          <logicalFolder name="structures" displayName="structures" projectFiles="true">
+            <logicalFolder name="animation" displayName="animation" projectFiles="true">
+              <itemPath>source/ground/structures/animation/canimation.cpp</itemPath>
+              <itemPath>source/ground/structures/animation/canimation.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="entity" displayName="entity" projectFiles="true">
+              <logicalFolder name="effects" displayName="effects" projectFiles="true">
+                <logicalFolder name="fx" displayName="fx" projectFiles="true">
+                  <itemPath>source/ground/structures/entity/effects/fx/cfx.cpp</itemPath>
+                  <itemPath>source/ground/structures/entity/effects/fx/cfx.h</itemPath>
+                </logicalFolder>
+                <itemPath>source/ground/structures/entity/effects/ceffects.cpp</itemPath>
+                <itemPath>source/ground/structures/entity/effects/ceffects.h</itemPath>
+              </logicalFolder>
+              <itemPath>source/ground/structures/entity/centity.cpp</itemPath>
+              <itemPath>source/ground/structures/entity/centity.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <itemPath>source/debug.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>source</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../engine/source</pElem>
+            <pElem>../engine/source/ground</pElem>
+            <pElem>../engine/source/ground/datafiles</pElem>
+            <pElem>../engine/source/ground/datafiles/filesystem</pElem>
+            <pElem>../engine/source/ground/datafiles/xml</pElem>
+            <pElem>../engine/source/ground/environment/paths</pElem>
+            <pElem>../engine/source/ground/environment/physics/collision</pElem>
+            <pElem>../engine/source/ground/environment/physics/collision/impacts</pElem>
+            <pElem>../engine/source/ground/networking</pElem>
+            <pElem>../engine/source/ground/networking/client</pElem>
+            <pElem>../engine/source/ground/networking/endian</pElem>
+            <pElem>../engine/source/ground/networking/lobby</pElem>
+            <pElem>../engine/source/ground/networking/server</pElem>
+            <pElem>../engine/source/ground/strings</pElem>
+            <pElem>../engine/source/ground/structures/array</pElem>
+            <pElem>../engine/source/ground/structures/timer</pElem>
+            <pElem>../engine/source/ground/support/glee</pElem>
+            <pElem>../engine/source/ground/system/input</pElem>
+            <pElem>../engine/source/ground/system/log</pElem>
+            <pElem>../engine/source/ground/system/math</pElem>
+            <pElem>../engine/source/ground/system/memory</pElem>
+            <pElem>../engine/source/ground/system/random</pElem>
+            <pElem>../engine/source/graphics</pElem>
+            <pElem>../engine/source/graphics/environment/lights</pElem>
+            <pElem>../engine/source/graphics/environment/shadow</pElem>
+            <pElem>../engine/source/graphics/ground/structures/model</pElem>
+            <pElem>../engine/source/graphics/ground/structures/particle</pElem>
+            <pElem>../engine/source/graphics/ground/structures/targa</pElem>
+            <pElem>../engine/source/graphics/ground/system/context</pElem>
+            <pElem>../engine/source/graphics/ground/system/environment</pElem>
+            <pElem>../engine/source/graphics/uid/structures/button</pElem>
+            <pElem>../engine/source/graphics/uid/structures/scroll</pElem>
+            <pElem>../engine/source/graphics/uid/structures/window</pElem>
+            <pElem>../engine/source/graphics/uid/structures/label</pElem>
+            <pElem>../engine/source/graphics/uid/structures/label/field</pElem>
+            <pElem>../engine/source/graphics/uid/structures/label/list</pElem>
+            <pElem>../engine/source/graphics/uid/structures/label/list/browser</pElem>
+            <pElem>../engine/source/graphics/uid/system/component</pElem>
+            <pElem>../engine/source/graphics/uid/system/fonts</pElem>
+            <pElem>../engine/source/graphics/uid/system/theme</pElem>
+            <pElem>../engine/source/audio</pElem>
+            <pElem>../engine/source/audio/structures/channels</pElem>
+            <pElem>../engine/source/audio/structures/wave</pElem>
+            <pElem>../engine/source/audio/system/sample</pElem>
+            <pElem>source</pElem>
+            <pElem>source/environment/countdown</pElem>
+            <pElem>source/ground/structures/animation</pElem>
+            <pElem>source/ground/structures/entity</pElem>
+            <pElem>source/ground/structures/entity/effects</pElem>
+            <pElem>source/ground/structures/entity/effects/fx</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../engine"
+                            CT="2"
+                            CN="Debug"
+                            AC="true"
+                            BL="true"
+                            WD="../engine"
+                            BC="${MAKE}  -f Makefile CONF=Debug"
+                            CC="${MAKE}  -f Makefile CONF=Debug clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libengine.${CND_DLIB_EXT}">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibLibItem>opengl32</linkerLibLibItem>
+            <linkerLibLibItem>freeglut</linkerLibLibItem>
+            <linkerLibLibItem>pthread</linkerLibLibItem>
+            <linkerLibLibItem>wsock32</linkerLibLibItem>
+            <linkerLibLibItem>mingw32</linkerLibLibItem>
+            <linkerLibLibItem>ws2_32</linkerLibLibItem>
+            <linkerLibLibItem>openal32</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="source/debug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/environment/countdown/ccountdown.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/environment/countdown/ccountdown.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/animation/canimation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/animation/canimation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/entity/centity.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/entity/centity.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/entity/effects/ceffects.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/entity/effects/ceffects.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/entity/effects/fx/cfx.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/entity/effects/fx/cfx.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="source/debug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/environment/countdown/ccountdown.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/environment/countdown/ccountdown.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/animation/canimation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/animation/canimation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/entity/centity.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/entity/centity.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/entity/effects/ceffects.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/entity/effects/ceffects.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/entity/effects/fx/cfx.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/entity/effects/fx/cfx.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

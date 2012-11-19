@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.hudson">
+    <module_version install_time="1352253219801" last="true" origin="installer" specification_version="1.23.1">
+        <file crc="1746424730" name="config/Modules/org-netbeans-modules-hudson.xml"/>
+        <file crc="1540810779" name="modules/locale/org-netbeans-modules-hudson_ja.jar"/>
+        <file crc="3069382587" name="modules/locale/org-netbeans-modules-hudson_pt_BR.jar"/>
+        <file crc="3907538720" name="modules/locale/org-netbeans-modules-hudson_ru.jar"/>
+        <file crc="1355920794" name="modules/locale/org-netbeans-modules-hudson_zh_CN.jar"/>
+        <file crc="3369205920" name="modules/org-netbeans-modules-hudson.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.parsing.api/1">
+    <module_version install_time="1352250854077" last="true" origin="installer" specification_version="1.58.1.6">
+        <file crc="3233347998" name="config/Modules/org-netbeans-modules-parsing-api.xml"/>
+        <file crc="3088742482" name="modules/locale/org-netbeans-modules-parsing-api_ja.jar"/>
+        <file crc="3439251410" name="modules/locale/org-netbeans-modules-parsing-api_pt_BR.jar"/>
+        <file crc="3192469346" name="modules/locale/org-netbeans-modules-parsing-api_ru.jar"/>
+        <file crc="4064907117" name="modules/locale/org-netbeans-modules-parsing-api_zh_CN.jar"/>
+        <file crc="907620766" name="modules/org-netbeans-modules-parsing-api.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.eclipse.equinox.registry">
+    <module_version install_time="1352247778700" last="true" origin="installer" specification_version="3.5.200.v20120522-1841">
+        <file crc="3329652564" name="config/Modules/org-eclipse-equinox-registry.xml"/>
+        <file crc="2420317999" name="modules/org-eclipse-equinox-registry.jar"/>
+    </module_version>
+</module>

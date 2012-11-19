@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.lexer.nbbridge/1">
+    <module_version install_time="1352249856431" last="true" origin="installer" specification_version="1.21.1.1">
+        <file crc="1332987720" name="config/Modules/org-netbeans-modules-lexer-nbbridge.xml"/>
+        <file crc="4077698856" name="modules/locale/org-netbeans-modules-lexer-nbbridge_ja.jar"/>
+        <file crc="3759773594" name="modules/locale/org-netbeans-modules-lexer-nbbridge_pt_BR.jar"/>
+        <file crc="1171003025" name="modules/locale/org-netbeans-modules-lexer-nbbridge_ru.jar"/>
+        <file crc="4167302576" name="modules/locale/org-netbeans-modules-lexer-nbbridge_zh_CN.jar"/>
+        <file crc="940313501" name="modules/org-netbeans-modules-lexer-nbbridge.jar"/>
+    </module_version>
+</module>

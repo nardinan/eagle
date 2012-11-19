@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.derby">
+    <module_version install_time="1352251423614" last="true" origin="installer" specification_version="1.29.1">
+        <file crc="3368613972" name="config/Modules/org-netbeans-modules-derby.xml"/>
+        <file crc="2566882324" name="modules/ext/derbysampledb.zip"/>
+        <file crc="3129222791" name="modules/locale/org-netbeans-modules-derby_ja.jar"/>
+        <file crc="686409289" name="modules/locale/org-netbeans-modules-derby_pt_BR.jar"/>
+        <file crc="2099948736" name="modules/locale/org-netbeans-modules-derby_ru.jar"/>
+        <file crc="2131875719" name="modules/locale/org-netbeans-modules-derby_zh_CN.jar"/>
+        <file crc="3172309415" name="modules/org-netbeans-modules-derby.jar"/>
+    </module_version>
+</module>

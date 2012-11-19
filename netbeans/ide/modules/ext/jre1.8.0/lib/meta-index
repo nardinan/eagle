@@ -1,0 +1,98 @@
+% VERSION 2
+% WARNING: this file is auto-generated; do not edit
+% UNSUPPORTED: this file and its format may change and/or
+%   may be removed in a future release
+! alt-rt.jar
+java/util
+# charsets.jar
+META-INF/services/java.nio.charset.spi.CharsetProvider
+sun/awt
+sun/nio
+# jce.jar
+sun/security
+META-INF/ORACLE_J.RSA
+javax/crypto
+META-INF/ORACLE_J.SF
+! jfr.jar
+oracle/jrockit/
+com/oracle/
+! jsse.jar
+sun/security
+com/sun/net/
+! management-agent.jar
+@ resources.jar
+META-INF/services/sun.java2d.pipe.RenderingEngine
+sun/rmi
+META-INF/services/javax.sound.sampled.spi.AudioFileReader
+com/sun/jndi/
+com/sun/xml/
+sun/org
+META-INF/services/com.sun.tools.internal.ws.wscompile.Plugin
+com/sun/org/
+META-INF/services/javax.sound.midi.spi.MidiDeviceProvider
+META-INF/services/javax.sound.sampled.spi.AudioFileWriter
+META-INF/services/com.sun.tools.internal.xjc.Plugin
+META-INF/mimetypes.default
+META-INF/services/javax.print.StreamPrintServiceFactory
+META-INF/services/javax.sound.midi.spi.MidiFileWriter
+com/sun/imageio/
+javax/swing
+sun/net
+META-INF/services/javax.sound.midi.spi.SoundbankReader
+com/sun/java/swing/
+sun/text
+META-INF/services/javax.script.ScriptEngineFactory
+META-INF/services/javax.print.PrintServiceLookup
+META-INF/services/javax.sound.sampled.spi.FormatConversionProvider
+META-INF/services/javax.sound.midi.spi.MidiFileReader
+sun/print
+com/sun/java/util/jar/pack/
+javax/sql
+com/sun/corba/
+com/sun/rowset/
+META-INF/services/java.sql.Driver
+java/lang
+META-INF/services/javax.sound.sampled.spi.MixerProvider
+com/sun/servicetag/
+META-INF/services/sun.java2d.cmm.PCMM
+META-INF/mailcap.default
+javax/xml
+! rt.jar
+com/sun/tracing/
+com/sun/nio/
+com/sun/media/
+org/w3c/
+sun/
+java/
+com/sun/jndi/
+com/sun/xml/
+com/sun/org/
+com/sun/script/
+com/sun/java_cup/
+org/xml/
+com/sun/management/
+com/sun/net/
+com/sun/rmi/
+org/jcp/
+com/sun/awt/
+com/sun/naming/
+com/sun/imageio/
+org/ietf/
+com/sun/activation/
+com/sun/demo/
+com/sun/java/swing/
+com/oracle/
+javax/
+com/sun/java/util/jar/pack/
+com/sun/swing/
+com/sun/image/
+com/sun/beans/
+com/sun/corba/
+com/sun/rowset/
+com/sun/istack/
+com/sun/security/
+com/sun/servicetag/
+com/sun/java/browser/
+com/sun/jmx/
+com/sun/accessibility/
+org/omg/

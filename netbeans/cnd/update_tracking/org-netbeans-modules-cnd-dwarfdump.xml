@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.cnd.dwarfdump">
+    <module_version install_time="1352249007824" last="true" origin="installer" specification_version="1.21.1.1">
+        <file crc="2229868659" name="config/Modules/org-netbeans-modules-cnd-dwarfdump.xml"/>
+        <file crc="3945017620" name="modules/locale/org-netbeans-modules-cnd-dwarfdump_ja.jar"/>
+        <file crc="71074084" name="modules/locale/org-netbeans-modules-cnd-dwarfdump_pt_BR.jar"/>
+        <file crc="3350289926" name="modules/locale/org-netbeans-modules-cnd-dwarfdump_ru.jar"/>
+        <file crc="3401716408" name="modules/locale/org-netbeans-modules-cnd-dwarfdump_zh_CN.jar"/>
+        <file crc="1704547745" name="modules/org-netbeans-modules-cnd-dwarfdump.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.cnd.qnavigator/1">
+    <module_version install_time="1352251757820" last="true" origin="installer" specification_version="1.21.1.1">
+        <file crc="544261539" name="config/Modules/org-netbeans-modules-cnd-qnavigator.xml"/>
+        <file crc="88528286" name="modules/locale/org-netbeans-modules-cnd-qnavigator_ja.jar"/>
+        <file crc="3697352426" name="modules/locale/org-netbeans-modules-cnd-qnavigator_pt_BR.jar"/>
+        <file crc="2715961964" name="modules/locale/org-netbeans-modules-cnd-qnavigator_ru.jar"/>
+        <file crc="3407421742" name="modules/locale/org-netbeans-modules-cnd-qnavigator_zh_CN.jar"/>
+        <file crc="2679380698" name="modules/org-netbeans-modules-cnd-qnavigator.jar"/>
+    </module_version>
+</module>

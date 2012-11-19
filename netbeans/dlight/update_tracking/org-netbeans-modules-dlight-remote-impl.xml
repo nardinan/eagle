@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.dlight.remote.impl">
+    <module_version install_time="1352251483268" last="true" origin="installer" specification_version="1.16.1.1">
+        <file crc="1767087553" name="config/Modules/org-netbeans-modules-dlight-remote-impl.xml"/>
+        <file crc="756539459" name="modules/locale/org-netbeans-modules-dlight-remote-impl_ja.jar"/>
+        <file crc="2143134430" name="modules/locale/org-netbeans-modules-dlight-remote-impl_pt_BR.jar"/>
+        <file crc="2105367258" name="modules/locale/org-netbeans-modules-dlight-remote-impl_ru.jar"/>
+        <file crc="2923308975" name="modules/locale/org-netbeans-modules-dlight-remote-impl_zh_CN.jar"/>
+        <file crc="165247085" name="modules/org-netbeans-modules-dlight-remote-impl.jar"/>
+    </module_version>
+</module>

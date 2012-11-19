@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.eclipse.equinox.common">
+    <module_version install_time="1352247777264" last="true" origin="installer" specification_version="3.6.0.v20100503">
+        <file crc="828042643" name="config/Modules/org-eclipse-equinox-common.xml"/>
+        <file crc="2801610037" name="modules/org-eclipse-equinox-common.jar"/>
+    </module_version>
+</module>

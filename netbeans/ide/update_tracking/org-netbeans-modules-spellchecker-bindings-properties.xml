@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.spellchecker.bindings.properties">
+    <module_version install_time="1352251601371" last="true" origin="installer" specification_version="1.11.1">
+        <file crc="1082921001" name="config/Modules/org-netbeans-modules-spellchecker-bindings-properties.xml"/>
+        <file crc="3949995013" name="modules/locale/org-netbeans-modules-spellchecker-bindings-properties_ja.jar"/>
+        <file crc="2634826530" name="modules/locale/org-netbeans-modules-spellchecker-bindings-properties_pt_BR.jar"/>
+        <file crc="520671192" name="modules/locale/org-netbeans-modules-spellchecker-bindings-properties_ru.jar"/>
+        <file crc="3916707420" name="modules/locale/org-netbeans-modules-spellchecker-bindings-properties_zh_CN.jar"/>
+        <file crc="98624289" name="modules/org-netbeans-modules-spellchecker-bindings-properties.jar"/>
+    </module_version>
+</module>

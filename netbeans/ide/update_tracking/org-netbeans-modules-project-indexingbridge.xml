@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.project.indexingbridge">
+    <module_version install_time="1352249807939" last="true" origin="installer" specification_version="1.6.1">
+        <file crc="3141148986" name="config/Modules/org-netbeans-modules-project-indexingbridge.xml"/>
+        <file crc="1294793267" name="modules/locale/org-netbeans-modules-project-indexingbridge_ja.jar"/>
+        <file crc="1993898298" name="modules/locale/org-netbeans-modules-project-indexingbridge_pt_BR.jar"/>
+        <file crc="316757730" name="modules/locale/org-netbeans-modules-project-indexingbridge_ru.jar"/>
+        <file crc="3418999284" name="modules/locale/org-netbeans-modules-project-indexingbridge_zh_CN.jar"/>
+        <file crc="3333731716" name="modules/org-netbeans-modules-project-indexingbridge.jar"/>
+    </module_version>
+</module>

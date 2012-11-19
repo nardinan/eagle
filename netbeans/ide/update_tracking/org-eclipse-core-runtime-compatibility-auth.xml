@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.eclipse.core.runtime.compatibility.auth">
+    <module_version install_time="1352249998795" last="true" origin="installer" specification_version="3.2.200.v20100517">
+        <file crc="3890457701" name="config/Modules/org-eclipse-core-runtime-compatibility-auth.xml"/>
+        <file crc="1801458054" name="modules/org-eclipse-core-runtime-compatibility-auth.jar"/>
+    </module_version>
+</module>

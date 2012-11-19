@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.cnd.callgraph">
+    <module_version install_time="1352250646243" last="true" origin="installer" specification_version="1.16.1.1">
+        <file crc="548927510" name="config/Modules/org-netbeans-modules-cnd-callgraph.xml"/>
+        <file crc="2536136869" name="modules/locale/org-netbeans-modules-cnd-callgraph_ja.jar"/>
+        <file crc="2428969656" name="modules/locale/org-netbeans-modules-cnd-callgraph_pt_BR.jar"/>
+        <file crc="2166942974" name="modules/locale/org-netbeans-modules-cnd-callgraph_ru.jar"/>
+        <file crc="4051455937" name="modules/locale/org-netbeans-modules-cnd-callgraph_zh_CN.jar"/>
+        <file crc="1005756938" name="modules/org-netbeans-modules-cnd-callgraph.jar"/>
+    </module_version>
+</module>

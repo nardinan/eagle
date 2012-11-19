@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.cnd.modelutil/1">
+    <module_version install_time="1352250608704" last="true" origin="installer" specification_version="1.22.1.1">
+        <file crc="2337827103" name="config/Modules/org-netbeans-modules-cnd-modelutil.xml"/>
+        <file crc="103538647" name="modules/locale/org-netbeans-modules-cnd-modelutil_ja.jar"/>
+        <file crc="2383198001" name="modules/locale/org-netbeans-modules-cnd-modelutil_pt_BR.jar"/>
+        <file crc="551907719" name="modules/locale/org-netbeans-modules-cnd-modelutil_ru.jar"/>
+        <file crc="2460993474" name="modules/locale/org-netbeans-modules-cnd-modelutil_zh_CN.jar"/>
+        <file crc="2855566783" name="modules/org-netbeans-modules-cnd-modelutil.jar"/>
+    </module_version>
+</module>

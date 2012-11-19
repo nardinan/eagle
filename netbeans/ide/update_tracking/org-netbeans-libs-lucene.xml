@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.libs.lucene/3">
+    <module_version install_time="1352247965283" last="true" origin="installer" specification_version="3.9.1">
+        <file crc="2359018399" name="config/Modules/org-netbeans-libs-lucene.xml"/>
+        <file crc="3413008438" name="modules/ext/lucene-core-3.5.0.jar"/>
+        <file crc="90527721" name="modules/locale/org-netbeans-libs-lucene_ja.jar"/>
+        <file crc="2985259936" name="modules/locale/org-netbeans-libs-lucene_pt_BR.jar"/>
+        <file crc="4169631883" name="modules/locale/org-netbeans-libs-lucene_ru.jar"/>
+        <file crc="2934298874" name="modules/locale/org-netbeans-libs-lucene_zh_CN.jar"/>
+        <file crc="2571752562" name="modules/org-netbeans-libs-lucene.jar"/>
+    </module_version>
+</module>

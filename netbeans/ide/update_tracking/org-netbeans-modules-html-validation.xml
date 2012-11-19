@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.html.validation/1">
+    <module_version install_time="1352252438926" last="true" origin="installer" specification_version="1.17.1">
+        <file crc="3926902112" name="config/Modules/org-netbeans-modules-html-validation.xml"/>
+        <file crc="1000141544" name="modules/ext/html5-datatypes.jar"/>
+        <file crc="1727497837" name="modules/ext/io-xml-util.jar"/>
+        <file crc="483064422" name="modules/ext/iri.jar"/>
+        <file crc="538309488" name="modules/ext/isorelax20041111.jar"/>
+        <file crc="3613323557" name="modules/ext/jing.jar"/>
+        <file crc="3730529240" name="modules/ext/js.jar"/>
+        <file crc="2197124025" name="modules/ext/log4j-1.2.15.jar"/>
+        <file crc="251251287" name="modules/ext/non-schema.jar"/>
+        <file crc="887821343" name="modules/ext/saxon9B.jar"/>
+        <file crc="3374539872" name="modules/ext/validator.jar"/>
+        <file crc="391645633" name="modules/locale/org-netbeans-modules-html-validation_ja.jar"/>
+        <file crc="1159755780" name="modules/locale/org-netbeans-modules-html-validation_pt_BR.jar"/>
+        <file crc="4042076674" name="modules/locale/org-netbeans-modules-html-validation_ru.jar"/>
+        <file crc="3772121816" name="modules/locale/org-netbeans-modules-html-validation_zh_CN.jar"/>
+        <file crc="2947610221" name="modules/org-netbeans-modules-html-validation.jar"/>
+    </module_version>
+</module>

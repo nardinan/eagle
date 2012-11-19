@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.httpserver/2">
+    <module_version install_time="1352250890628" last="true" origin="installer" specification_version="2.25.1.42">
+        <file crc="2081286140" name="config/Modules/org-netbeans-modules-httpserver.xml"/>
+        <file crc="250638008" name="modules/ext/webserver.jar"/>
+        <file crc="4156652087" name="modules/locale/org-netbeans-modules-httpserver_ja.jar"/>
+        <file crc="11968889" name="modules/locale/org-netbeans-modules-httpserver_pt_BR.jar"/>
+        <file crc="1633976621" name="modules/locale/org-netbeans-modules-httpserver_ru.jar"/>
+        <file crc="62182450" name="modules/locale/org-netbeans-modules-httpserver_zh_CN.jar"/>
+        <file crc="2750154777" name="modules/org-netbeans-modules-httpserver.jar"/>
+    </module_version>
+</module>

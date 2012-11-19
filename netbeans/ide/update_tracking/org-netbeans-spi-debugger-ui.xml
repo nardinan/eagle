@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.spi.debugger.ui/1">
+    <module_version install_time="1352250602710" last="true" origin="installer" specification_version="2.36.1">
+        <file crc="1519443584" name="config/Modules/org-netbeans-spi-debugger-ui.xml"/>
+        <file crc="589094055" name="modules/locale/org-netbeans-spi-debugger-ui_ja.jar"/>
+        <file crc="927380212" name="modules/locale/org-netbeans-spi-debugger-ui_pt_BR.jar"/>
+        <file crc="2845895481" name="modules/locale/org-netbeans-spi-debugger-ui_ru.jar"/>
+        <file crc="479925603" name="modules/locale/org-netbeans-spi-debugger-ui_zh_CN.jar"/>
+        <file crc="4224762720" name="modules/org-netbeans-spi-debugger-ui.jar"/>
+    </module_version>
+</module>

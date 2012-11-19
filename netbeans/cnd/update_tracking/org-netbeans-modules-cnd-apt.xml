@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.cnd.apt">
+    <module_version install_time="1352250058396" last="true" origin="installer" specification_version="1.22.1.1">
+        <file crc="1575020104" name="config/Modules/org-netbeans-modules-cnd-apt.xml"/>
+        <file crc="2961244902" name="modules/locale/org-netbeans-modules-cnd-apt_ja.jar"/>
+        <file crc="3688680760" name="modules/locale/org-netbeans-modules-cnd-apt_pt_BR.jar"/>
+        <file crc="3546426272" name="modules/locale/org-netbeans-modules-cnd-apt_ru.jar"/>
+        <file crc="2693200737" name="modules/locale/org-netbeans-modules-cnd-apt_zh_CN.jar"/>
+        <file crc="1272669836" name="modules/org-netbeans-modules-cnd-apt.jar"/>
+    </module_version>
+</module>

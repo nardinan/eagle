@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.spi.tasklist/1">
+    <module_version install_time="1352249817279" last="true" origin="installer" specification_version="1.21.1.1">
+        <file crc="1227800962" name="config/Modules/org-netbeans-spi-tasklist.xml"/>
+        <file crc="2967705849" name="modules/locale/org-netbeans-spi-tasklist_ja.jar"/>
+        <file crc="4001148555" name="modules/locale/org-netbeans-spi-tasklist_pt_BR.jar"/>
+        <file crc="3217367214" name="modules/locale/org-netbeans-spi-tasklist_ru.jar"/>
+        <file crc="457816526" name="modules/locale/org-netbeans-spi-tasklist_zh_CN.jar"/>
+        <file crc="1300977719" name="modules/org-netbeans-spi-tasklist.jar"/>
+    </module_version>
+</module>

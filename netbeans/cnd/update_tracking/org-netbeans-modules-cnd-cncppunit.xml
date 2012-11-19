@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.cnd.cncppunit">
+    <module_version install_time="1352253258571" last="true" origin="installer" specification_version="1.12.1.1.1">
+        <file crc="2662159385" name="config/Modules/org-netbeans-modules-cnd-cncppunit.xml"/>
+        <file crc="738197103" name="modules/locale/org-netbeans-modules-cnd-cncppunit_ja.jar"/>
+        <file crc="2261538051" name="modules/locale/org-netbeans-modules-cnd-cncppunit_pt_BR.jar"/>
+        <file crc="2463295867" name="modules/locale/org-netbeans-modules-cnd-cncppunit_ru.jar"/>
+        <file crc="2512187057" name="modules/locale/org-netbeans-modules-cnd-cncppunit_zh_CN.jar"/>
+        <file crc="2860644283" name="modules/org-netbeans-modules-cnd-cncppunit.jar"/>
+    </module_version>
+</module>

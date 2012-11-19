@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.cnd.antlr">
+    <module_version install_time="1352249002798" last="true" origin="installer" specification_version="2.25.1.1">
+        <file crc="2331893297" name="config/Modules/org-netbeans-modules-cnd-antlr.xml"/>
+        <file crc="3294863641" name="modules/locale/org-netbeans-modules-cnd-antlr_ja.jar"/>
+        <file crc="2953478879" name="modules/locale/org-netbeans-modules-cnd-antlr_pt_BR.jar"/>
+        <file crc="656210177" name="modules/locale/org-netbeans-modules-cnd-antlr_ru.jar"/>
+        <file crc="3008990289" name="modules/locale/org-netbeans-modules-cnd-antlr_zh_CN.jar"/>
+        <file crc="2709739097" name="modules/org-netbeans-modules-cnd-antlr.jar"/>
+    </module_version>
+</module>

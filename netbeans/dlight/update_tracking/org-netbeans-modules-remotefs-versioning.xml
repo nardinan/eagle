@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.remotefs.versioning">
+    <module_version install_time="1352253486957" last="true" origin="installer" specification_version="1.4.1.1">
+        <file crc="1304352956" name="config/Modules/org-netbeans-modules-remotefs-versioning.xml"/>
+        <file crc="2517380997" name="modules/locale/org-netbeans-modules-remotefs-versioning_ja.jar"/>
+        <file crc="2089271622" name="modules/locale/org-netbeans-modules-remotefs-versioning_pt_BR.jar"/>
+        <file crc="3167273290" name="modules/locale/org-netbeans-modules-remotefs-versioning_ru.jar"/>
+        <file crc="474494337" name="modules/locale/org-netbeans-modules-remotefs-versioning_zh_CN.jar"/>
+        <file crc="1506422203" name="modules/org-netbeans-modules-remotefs-versioning.jar"/>
+    </module_version>
+</module>

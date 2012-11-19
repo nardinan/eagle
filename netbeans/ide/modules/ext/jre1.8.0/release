@@ -1,0 +1,5 @@
+JAVA_VERSION="1.8.0"
+OS_NAME="Linux"
+OS_VERSION="2.6"
+OS_ARCH="i586"
+SOURCE=" .:522dfac8ca4d corba:f3ab4163ae01 deploy:f457c80fb114 hotspot:d70102c4cb73 hotspot/make/closed:ff24b046a936 hotspot/src/closed:3d75ef25a92b hotspot/test/closed:15ed51812847 install:fda26bb99395 jaxp:7c9475c7618c jaxws:b51b611209f1 jdk:51594d095a4b jdk/make/closed:36f13ad13416 jdk/src/closed:10362599cba1 jdk/test/closed:5ab33cfce521 langtools:86d5740b9fdc pubs:10df8c988332 sponsors:fa979a08eb12"

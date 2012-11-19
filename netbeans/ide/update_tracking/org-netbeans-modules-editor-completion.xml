@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.editor.completion/1">
+    <module_version install_time="1352250284652" last="true" origin="installer" specification_version="1.32.1.1">
+        <file crc="1327033579" name="config/Modules/org-netbeans-modules-editor-completion.xml"/>
+        <file crc="2397083371" name="modules/locale/org-netbeans-modules-editor-completion_ja.jar"/>
+        <file crc="3675770530" name="modules/locale/org-netbeans-modules-editor-completion_pt_BR.jar"/>
+        <file crc="303663903" name="modules/locale/org-netbeans-modules-editor-completion_ru.jar"/>
+        <file crc="1461235419" name="modules/locale/org-netbeans-modules-editor-completion_zh_CN.jar"/>
+        <file crc="4172880946" name="modules/org-netbeans-modules-editor-completion.jar"/>
+    </module_version>
+</module>

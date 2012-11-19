@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="com.jcraft.jzlib">
+    <module_version install_time="1352247751525" last="true" origin="installer" specification_version="1.0.7">
+        <file crc="3541772271" name="config/Modules/com-jcraft-jzlib.xml"/>
+        <file crc="2295689193" name="modules/com-jcraft-jzlib.jar"/>
+    </module_version>
+</module>

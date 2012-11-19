@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.apache.ws.commons.util">
+    <module_version install_time="1352247770593" last="true" origin="installer" specification_version="1.0.1">
+        <file crc="1217943351" name="config/Modules/org-apache-ws-commons-util.xml"/>
+        <file crc="2195404513" name="modules/org-apache-ws-commons-util.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.projectui">
+    <module_version install_time="1352250696033" last="true" origin="installer" specification_version="1.38.1.8">
+        <file crc="160952363" name="config/Modules/org-netbeans-modules-projectui.xml"/>
+        <file crc="2777545825" name="modules/locale/org-netbeans-modules-projectui_ja.jar"/>
+        <file crc="3235660645" name="modules/locale/org-netbeans-modules-projectui_pt_BR.jar"/>
+        <file crc="3870187968" name="modules/locale/org-netbeans-modules-projectui_ru.jar"/>
+        <file crc="676635262" name="modules/locale/org-netbeans-modules-projectui_zh_CN.jar"/>
+        <file crc="186701673" name="modules/org-netbeans-modules-projectui.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.swing.validation/2">
+    <module_version install_time="1352249596644" last="true" origin="installer" specification_version="1.20.1">
+        <file crc="2114963769" name="config/Modules/org-netbeans-modules-swing-validation.xml"/>
+        <file crc="719726765" name="modules/ext/ValidationAPI.jar"/>
+        <file crc="599467102" name="modules/ext/locale/ValidationAPI_ja.jar"/>
+        <file crc="1574204654" name="modules/ext/locale/ValidationAPI_pt_BR.jar"/>
+        <file crc="2312048540" name="modules/ext/locale/ValidationAPI_ru.jar"/>
+        <file crc="4089522433" name="modules/ext/locale/ValidationAPI_zh_CN.jar"/>
+        <file crc="3696954579" name="modules/locale/org-netbeans-modules-swing-validation_ja.jar"/>
+        <file crc="1065814287" name="modules/locale/org-netbeans-modules-swing-validation_pt_BR.jar"/>
+        <file crc="3230722913" name="modules/locale/org-netbeans-modules-swing-validation_ru.jar"/>
+        <file crc="2345168383" name="modules/locale/org-netbeans-modules-swing-validation_zh_CN.jar"/>
+        <file crc="2919423493" name="modules/org-netbeans-modules-swing-validation.jar"/>
+    </module_version>
+</module>

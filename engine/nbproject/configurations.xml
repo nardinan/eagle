@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="88">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="source" displayName="source" projectFiles="true">
+        <logicalFolder name="audio" displayName="audio" projectFiles="true">
+          <logicalFolder name="structures" displayName="structures" projectFiles="true">
+            <logicalFolder name="channels" displayName="channels" projectFiles="true">
+              <itemPath>source/audio/structures/channels/cchannels.cpp</itemPath>
+              <itemPath>source/audio/structures/channels/cchannels.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="wave" displayName="wave" projectFiles="true">
+              <itemPath>source/audio/structures/wave/cwave.cpp</itemPath>
+              <itemPath>source/audio/structures/wave/cwave.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="system" displayName="system" projectFiles="true">
+            <logicalFolder name="sample" displayName="sample" projectFiles="true">
+              <itemPath>source/audio/system/sample/csample.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <itemPath>source/audio/caudio.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="graphics" displayName="graphics" projectFiles="true">
+          <logicalFolder name="environment" displayName="environment" projectFiles="true">
+            <logicalFolder name="lights" displayName="lights" projectFiles="true">
+              <itemPath>source/graphics/environment/lights/clights.cpp</itemPath>
+              <itemPath>source/graphics/environment/lights/clights.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="shadow" displayName="shadow" projectFiles="true">
+              <itemPath>source/graphics/environment/shadow/cshadows.cpp</itemPath>
+              <itemPath>source/graphics/environment/shadow/cshadows.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="ground" displayName="ground" projectFiles="true">
+            <logicalFolder name="structures" displayName="structures" projectFiles="true">
+              <logicalFolder name="model" displayName="model" projectFiles="true">
+                <itemPath>source/graphics/ground/structures/model/cmodel.cpp</itemPath>
+                <itemPath>source/graphics/ground/structures/model/cmodel.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="particle" displayName="particle" projectFiles="true">
+                <itemPath>source/graphics/ground/structures/particle/cparticle.cpp</itemPath>
+                <itemPath>source/graphics/ground/structures/particle/cparticle.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="targa" displayName="targa" projectFiles="true">
+                <itemPath>source/graphics/ground/structures/targa/ctarga.cpp</itemPath>
+                <itemPath>source/graphics/ground/structures/targa/ctarga.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="system" displayName="system" projectFiles="true">
+              <logicalFolder name="context" displayName="context" projectFiles="true">
+                <itemPath>source/graphics/ground/system/context/ccontext.cpp</itemPath>
+                <itemPath>source/graphics/ground/system/context/ccontext.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="environment" displayName="environment" projectFiles="true">
+                <itemPath>source/graphics/ground/system/environment/cenvironment.cpp</itemPath>
+                <itemPath>source/graphics/ground/system/environment/cenvironment.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="uid" displayName="uid" projectFiles="true">
+            <logicalFolder name="structures" displayName="structures" projectFiles="true">
+              <logicalFolder name="button" displayName="button" projectFiles="true">
+                <itemPath>source/graphics/uid/structures/button/cbutton.cpp</itemPath>
+                <itemPath>source/graphics/uid/structures/button/cbutton.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="label" displayName="label" projectFiles="true">
+                <logicalFolder name="field" displayName="field" projectFiles="true">
+                  <itemPath>source/graphics/uid/structures/label/field/cfield.cpp</itemPath>
+                  <itemPath>source/graphics/uid/structures/label/field/cfield.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="list" displayName="list" projectFiles="true">
+                  <logicalFolder name="browser" displayName="browser" projectFiles="true">
+                    <itemPath>source/graphics/uid/structures/label/list/browser/cbrowser.cpp</itemPath>
+                    <itemPath>source/graphics/uid/structures/label/list/browser/cbrowser.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>source/graphics/uid/structures/label/list/clist.cpp</itemPath>
+                  <itemPath>source/graphics/uid/structures/label/list/clist.h</itemPath>
+                </logicalFolder>
+                <itemPath>source/graphics/uid/structures/label/clabel.cpp</itemPath>
+                <itemPath>source/graphics/uid/structures/label/clabel.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="scroll" displayName="scroll" projectFiles="true">
+                <itemPath>source/graphics/uid/structures/scroll/cscroller.cpp</itemPath>
+                <itemPath>source/graphics/uid/structures/scroll/cscroller.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="window" displayName="window" projectFiles="true">
+                <itemPath>source/graphics/uid/structures/window/cwindow.cpp</itemPath>
+                <itemPath>source/graphics/uid/structures/window/cwindow.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="system" displayName="system" projectFiles="true">
+              <logicalFolder name="component" displayName="component" projectFiles="true">
+                <itemPath>source/graphics/uid/system/component/ccomponent.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="fonts" displayName="fonts" projectFiles="true">
+                <itemPath>source/graphics/uid/system/fonts/cfonts.cpp</itemPath>
+                <itemPath>source/graphics/uid/system/fonts/cfonts.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="theme" displayName="theme" projectFiles="true">
+                <itemPath>source/graphics/uid/system/theme/ctheme.cpp</itemPath>
+                <itemPath>source/graphics/uid/system/theme/ctheme.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <itemPath>source/graphics/cgraphics.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="ground" displayName="ground" projectFiles="true">
+          <logicalFolder name="datafiles" displayName="datafiles" projectFiles="true">
+            <logicalFolder name="filesystem" displayName="filesystem" projectFiles="true">
+              <itemPath>source/ground/datafiles/filesystem/cfilesystem.cpp</itemPath>
+              <itemPath>source/ground/datafiles/filesystem/cfilesystem.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="xml" displayName="xml" projectFiles="true">
+              <itemPath>source/ground/datafiles/xml/cxml.cpp</itemPath>
+              <itemPath>source/ground/datafiles/xml/cxml.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="environment" displayName="environment" projectFiles="true">
+            <logicalFolder name="paths" displayName="paths" projectFiles="true">
+              <itemPath>source/ground/environment/paths/cpaths.cpp</itemPath>
+              <itemPath>source/ground/environment/paths/cpaths.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="physics" displayName="physics" projectFiles="true">
+              <logicalFolder name="collision" displayName="collision" projectFiles="true">
+                <logicalFolder name="impacts" displayName="impacts" projectFiles="true">
+                  <itemPath>source/ground/environment/physics/collision/impacts/cimpacts.cpp</itemPath>
+                  <itemPath>source/ground/environment/physics/collision/impacts/cimpacts.h</itemPath>
+                </logicalFolder>
+                <itemPath>source/ground/environment/physics/collision/ccollision.cpp</itemPath>
+                <itemPath>source/ground/environment/physics/collision/ccollision.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="networking" displayName="networking" projectFiles="true">
+            <logicalFolder name="client" displayName="client" projectFiles="true">
+              <itemPath>source/ground/networking/client/cclient.cpp</itemPath>
+              <itemPath>source/ground/networking/client/cclient.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="endian" displayName="endian" projectFiles="true">
+              <itemPath>source/ground/networking/endian/cendian.cpp</itemPath>
+              <itemPath>source/ground/networking/endian/cendian.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="lobby" displayName="lobby" projectFiles="true">
+              <itemPath>source/ground/networking/lobby/clobby.cpp</itemPath>
+              <itemPath>source/ground/networking/lobby/clobby.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="server" displayName="server" projectFiles="true">
+              <itemPath>source/ground/networking/server/cserver.cpp</itemPath>
+              <itemPath>source/ground/networking/server/cserver.h</itemPath>
+            </logicalFolder>
+            <itemPath>source/ground/networking/cnetworking.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="strings" displayName="strings" projectFiles="true">
+            <itemPath>source/ground/strings/cstring.cpp</itemPath>
+            <itemPath>source/ground/strings/cstring.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="structures" displayName="structures" projectFiles="true">
+            <logicalFolder name="array" displayName="array" projectFiles="true">
+              <itemPath>source/ground/structures/array/carray.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="timer" displayName="timer" projectFiles="true">
+              <itemPath>source/ground/structures/timer/ctimer.cpp</itemPath>
+              <itemPath>source/ground/structures/timer/ctimer.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="support" displayName="support" projectFiles="true">
+            <logicalFolder name="glee" displayName="glee" projectFiles="true">
+              <itemPath>source/ground/support/glee/GLee.c</itemPath>
+              <itemPath>source/ground/support/glee/GLee.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="system" displayName="system" projectFiles="true">
+            <logicalFolder name="input" displayName="input" projectFiles="true">
+              <itemPath>source/ground/system/input/cinput.cpp</itemPath>
+              <itemPath>source/ground/system/input/cinput.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="log" displayName="log" projectFiles="true">
+              <itemPath>source/ground/system/log/clog.cpp</itemPath>
+              <itemPath>source/ground/system/log/clog.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="math" displayName="math" projectFiles="true">
+              <itemPath>source/ground/system/math/cmath.cpp</itemPath>
+              <itemPath>source/ground/system/math/cmath.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="memory" displayName="memory" projectFiles="true">
+              <itemPath>source/ground/system/memory/cmemory.cpp</itemPath>
+              <itemPath>source/ground/system/memory/cmemory.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="random" displayName="random" projectFiles="true">
+              <itemPath>source/ground/system/random/crandom.cpp</itemPath>
+              <itemPath>source/ground/system/random/crandom.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <itemPath>source/ground/cground.h</itemPath>
+        </logicalFolder>
+        <itemPath>source/cengine.cpp</itemPath>
+        <itemPath>source/cengine.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>source</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>source</pElem>
+            <pElem>source/ground</pElem>
+            <pElem>source/ground/datafiles</pElem>
+            <pElem>source/ground/datafiles/filesystem</pElem>
+            <pElem>source/ground/datafiles/xml</pElem>
+            <pElem>source/ground/environment/paths</pElem>
+            <pElem>source/ground/environment/physics/collision</pElem>
+            <pElem>source/ground/environment/physics/collision/impacts</pElem>
+            <pElem>source/ground/networking</pElem>
+            <pElem>source/ground/networking/client</pElem>
+            <pElem>source/ground/networking/endian</pElem>
+            <pElem>source/ground/networking/lobby</pElem>
+            <pElem>source/ground/networking/server</pElem>
+            <pElem>source/ground/strings</pElem>
+            <pElem>source/ground/structures/array</pElem>
+            <pElem>source/ground/structures/timer</pElem>
+            <pElem>source/ground/support/glee</pElem>
+            <pElem>source/ground/system/input</pElem>
+            <pElem>source/ground/system/log</pElem>
+            <pElem>source/ground/system/math</pElem>
+            <pElem>source/ground/system/memory</pElem>
+            <pElem>source/ground/system/random</pElem>
+            <pElem>source/graphics</pElem>
+            <pElem>source/graphics/environment/lights</pElem>
+            <pElem>source/graphics/environment/shadow</pElem>
+            <pElem>source/graphics/ground/structures/model</pElem>
+            <pElem>source/graphics/ground/structures/particle</pElem>
+            <pElem>source/graphics/ground/structures/targa</pElem>
+            <pElem>source/graphics/ground/system/context</pElem>
+            <pElem>source/graphics/ground/system/environment</pElem>
+            <pElem>source/graphics/uid/structures/button</pElem>
+            <pElem>source/graphics/uid/structures/scroll</pElem>
+            <pElem>source/graphics/uid/structures/window</pElem>
+            <pElem>source/graphics/uid/structures/label</pElem>
+            <pElem>source/graphics/uid/structures/label/field</pElem>
+            <pElem>source/graphics/uid/structures/label/list</pElem>
+            <pElem>source/graphics/uid/structures/label/list/browser</pElem>
+            <pElem>source/graphics/uid/system/component</pElem>
+            <pElem>source/graphics/uid/system/fonts</pElem>
+            <pElem>source/graphics/uid/system/theme</pElem>
+            <pElem>source/audio</pElem>
+            <pElem>source/audio/structures/channels</pElem>
+            <pElem>source/audio/structures/wave</pElem>
+            <pElem>source/audio/system/sample</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>opengl32</linkerLibLibItem>
+            <linkerLibLibItem>freeglut</linkerLibLibItem>
+            <linkerLibLibItem>pthread</linkerLibLibItem>
+            <linkerLibLibItem>wsock32</linkerLibLibItem>
+            <linkerLibLibItem>mingw32</linkerLibLibItem>
+            <linkerLibLibItem>ws2_32</linkerLibLibItem>
+            <linkerLibLibItem>openal32</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="source/audio/caudio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/audio/structures/channels/cchannels.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/audio/structures/channels/cchannels.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/audio/structures/wave/cwave.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/audio/structures/wave/cwave.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/audio/system/sample/csample.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/cengine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/cengine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/graphics/cgraphics.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/graphics/environment/lights/clights.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/environment/lights/clights.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/environment/shadow/cshadows.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/environment/shadow/cshadows.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/structures/model/cmodel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/structures/model/cmodel.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/structures/particle/cparticle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/structures/particle/cparticle.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/structures/targa/ctarga.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/structures/targa/ctarga.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/system/context/ccontext.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/system/context/ccontext.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/system/environment/cenvironment.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/system/environment/cenvironment.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/button/cbutton.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/button/cbutton.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/label/clabel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/label/clabel.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/label/field/cfield.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/label/field/cfield.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/label/list/browser/cbrowser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/label/list/browser/cbrowser.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/label/list/clist.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/label/list/clist.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/scroll/cscroller.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/scroll/cscroller.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/window/cwindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/window/cwindow.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/system/component/ccomponent.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/system/fonts/cfonts.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/system/fonts/cfonts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/system/theme/ctheme.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/system/theme/ctheme.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/cground.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/ground/datafiles/filesystem/cfilesystem.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/datafiles/filesystem/cfilesystem.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/datafiles/xml/cxml.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/datafiles/xml/cxml.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/ground/environment/paths/cpaths.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/environment/paths/cpaths.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/environment/physics/collision/ccollision.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/environment/physics/collision/ccollision.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/environment/physics/collision/impacts/cimpacts.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/environment/physics/collision/impacts/cimpacts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/networking/client/cclient.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/networking/client/cclient.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/networking/cnetworking.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/networking/endian/cendian.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/networking/endian/cendian.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/networking/lobby/clobby.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/networking/lobby/clobby.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/networking/server/cserver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/networking/server/cserver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/strings/cstring.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/ground/strings/cstring.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/ground/structures/array/carray.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/timer/ctimer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/timer/ctimer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/support/glee/GLee.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/ground/support/glee/GLee.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/ground/system/input/cinput.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/system/input/cinput.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/system/log/clog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/ground/system/log/clog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/ground/system/math/cmath.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/system/math/cmath.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/ground/system/memory/cmemory.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/system/memory/cmemory.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/system/random/crandom.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/system/random/crandom.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="source/audio/caudio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/audio/structures/channels/cchannels.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/audio/structures/channels/cchannels.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/audio/structures/wave/cwave.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/audio/structures/wave/cwave.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/audio/system/sample/csample.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/cengine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/cengine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/graphics/cgraphics.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/graphics/environment/lights/clights.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/environment/lights/clights.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/environment/shadow/cshadows.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/environment/shadow/cshadows.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/structures/model/cmodel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/structures/model/cmodel.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/structures/particle/cparticle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/structures/particle/cparticle.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/structures/targa/ctarga.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/structures/targa/ctarga.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/system/context/ccontext.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/system/context/ccontext.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/system/environment/cenvironment.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/ground/system/environment/cenvironment.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/button/cbutton.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/button/cbutton.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/label/clabel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/label/clabel.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/label/field/cfield.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/label/field/cfield.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/label/list/browser/cbrowser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/label/list/browser/cbrowser.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/label/list/clist.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/label/list/clist.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/scroll/cscroller.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/scroll/cscroller.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/window/cwindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/structures/window/cwindow.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/system/component/ccomponent.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/system/fonts/cfonts.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/system/fonts/cfonts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/system/theme/ctheme.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/graphics/uid/system/theme/ctheme.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/cground.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/ground/datafiles/filesystem/cfilesystem.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/datafiles/filesystem/cfilesystem.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/datafiles/xml/cxml.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/datafiles/xml/cxml.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/ground/environment/paths/cpaths.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/environment/paths/cpaths.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/environment/physics/collision/ccollision.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/environment/physics/collision/ccollision.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/environment/physics/collision/impacts/cimpacts.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/environment/physics/collision/impacts/cimpacts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/networking/client/cclient.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/networking/client/cclient.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/networking/cnetworking.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/networking/endian/cendian.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/networking/endian/cendian.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/networking/lobby/clobby.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/networking/lobby/clobby.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/networking/server/cserver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/networking/server/cserver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/strings/cstring.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/ground/strings/cstring.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/ground/structures/array/carray.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/timer/ctimer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/structures/timer/ctimer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/support/glee/GLee.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/ground/support/glee/GLee.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/ground/system/input/cinput.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/system/input/cinput.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/system/log/clog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/ground/system/log/clog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/ground/system/math/cmath.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/system/math/cmath.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/ground/system/memory/cmemory.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/system/memory/cmemory.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="source/ground/system/random/crandom.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="source/ground/system/random/crandom.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

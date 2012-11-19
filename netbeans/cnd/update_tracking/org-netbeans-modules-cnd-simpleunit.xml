@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.cnd.simpleunit">
+    <module_version install_time="1352251529130" last="true" origin="installer" specification_version="1.11.1.1.1">
+        <file crc="2998604319" name="config/Modules/org-netbeans-modules-cnd-simpleunit.xml"/>
+        <file crc="2170579380" name="modules/locale/org-netbeans-modules-cnd-simpleunit_ja.jar"/>
+        <file crc="3888729339" name="modules/locale/org-netbeans-modules-cnd-simpleunit_pt_BR.jar"/>
+        <file crc="2828595034" name="modules/locale/org-netbeans-modules-cnd-simpleunit_ru.jar"/>
+        <file crc="2762253135" name="modules/locale/org-netbeans-modules-cnd-simpleunit_zh_CN.jar"/>
+        <file crc="1166025881" name="modules/org-netbeans-modules-cnd-simpleunit.jar"/>
+    </module_version>
+</module>

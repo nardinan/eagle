@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.server/0">
+    <module_version install_time="1352251167394" last="true" origin="installer" specification_version="1.22.1">
+        <file crc="3460152807" name="config/Modules/org-netbeans-modules-server.xml"/>
+        <file crc="1839234685" name="modules/locale/org-netbeans-modules-server_ja.jar"/>
+        <file crc="681435130" name="modules/locale/org-netbeans-modules-server_pt_BR.jar"/>
+        <file crc="1484124119" name="modules/locale/org-netbeans-modules-server_ru.jar"/>
+        <file crc="1999488051" name="modules/locale/org-netbeans-modules-server_zh_CN.jar"/>
+        <file crc="478067752" name="modules/org-netbeans-modules-server.jar"/>
+    </module_version>
+</module>

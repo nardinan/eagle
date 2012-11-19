@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.utilities/1">
+    <module_version install_time="1352250208117" last="true" origin="installer" specification_version="1.46.1">
+        <file crc="754223576" name="config/Modules/org-netbeans-modules-utilities.xml"/>
+        <file crc="1709886518" name="modules/locale/org-netbeans-modules-utilities_ja.jar"/>
+        <file crc="591843495" name="modules/locale/org-netbeans-modules-utilities_pt_BR.jar"/>
+        <file crc="2921753957" name="modules/locale/org-netbeans-modules-utilities_ru.jar"/>
+        <file crc="2144259674" name="modules/locale/org-netbeans-modules-utilities_zh_CN.jar"/>
+        <file crc="3098859478" name="modules/org-netbeans-modules-utilities.jar"/>
+    </module_version>
+</module>

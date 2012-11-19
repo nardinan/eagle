@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.apache.xmlrpc">
+    <module_version install_time="1352247775742" last="true" origin="installer" specification_version="3.0.0">
+        <file crc="2126986189" name="config/Modules/org-apache-xmlrpc.xml"/>
+        <file crc="1224995780" name="modules/org-apache-xmlrpc.jar"/>
+    </module_version>
+</module>

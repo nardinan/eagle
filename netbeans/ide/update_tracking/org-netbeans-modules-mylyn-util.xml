@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.mylyn.util">
+    <module_version install_time="1352250000872" last="true" origin="installer" specification_version="1.1.1">
+        <file crc="1042579023" name="config/Modules/org-netbeans-modules-mylyn-util.xml"/>
+        <file crc="3374634806" name="modules/org-netbeans-modules-mylyn-util.jar"/>
+    </module_version>
+</module>

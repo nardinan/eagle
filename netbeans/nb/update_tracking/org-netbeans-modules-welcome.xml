@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="org.netbeans.modules.welcome/1">
+    <module_version install_time="1352250702561" last="true" origin="installer" specification_version="1.31.1">
+        <file crc="3488902111" name="config/Modules/org-netbeans-modules-welcome.xml"/>
+        <file crc="3440165014" name="docs/GUIExamplesDescription.html"/>
+        <file crc="674920012" name="docs/SwingInteropDescription.html"/>
+        <file crc="1604694962" name="docs/images/background.png"/>
+        <file crc="3851456470" name="docs/images/banner-left.png"/>
+        <file crc="269304499" name="docs/images/banner-right.png"/>
+        <file crc="3142180778" name="docs/images/blue.png"/>
+        <file crc="1868564349" name="docs/images/circle1.gif"/>
+        <file crc="1098217720" name="docs/images/circle2.gif"/>
+        <file crc="368727966" name="docs/images/circle3.gif"/>
+        <file crc="2440615614" name="docs/images/circle4.gif"/>
+        <file crc="3061905232" name="docs/images/circle5.gif"/>
+        <file crc="909607785" name="docs/images/circle6.gif"/>
+        <file crc="1323967168" name="docs/images/down-left.png"/>
+        <file crc="713566393" name="docs/images/down-right.png"/>
+        <file crc="3336227893" name="docs/images/spacer.png"/>
+        <file crc="1663665943" name="docs/images/up-left.png"/>
+        <file crc="358948896" name="docs/images/up-right.png"/>
+        <file crc="2422619662" name="docs/netbeans.css"/>
+        <file crc="3770250551" name="modules/locale/org-netbeans-modules-welcome_ja.jar"/>
+        <file crc="2770905125" name="modules/locale/org-netbeans-modules-welcome_pt_BR.jar"/>
+        <file crc="1328543426" name="modules/locale/org-netbeans-modules-welcome_ru.jar"/>
+        <file crc="288883338" name="modules/locale/org-netbeans-modules-welcome_zh_CN.jar"/>
+        <file crc="2407746465" name="modules/org-netbeans-modules-welcome.jar"/>
+    </module_version>
+</module>
