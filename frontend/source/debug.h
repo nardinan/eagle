@@ -9,10 +9,10 @@
  */
 #ifndef EF_DEBUG
 #define	EF_DEBUG
-#define EE_CANIMATION_PRINT 1
-#define EE_CEFFECTS_PRINT 1 
-#define EE_CENTITY_PRINT 1
-#define EE_CFX_PRINT 1
-#define EE_CCOUNTDOWN_PRINT 1
+#define EE_CANIMATION_PRINT
+#define EE_CEFFECTS_PRINT
+//#define EE_CENTITY_PRINT
+//#define EE_CFX_PRINT
+//#define EE_CCOUNTDOWN_PRINT
 #endif	
 

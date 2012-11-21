@@ -1,0 +1,27 @@
+<engine>
+	<resolutionx>800</resolutionx>
+	<resolutiony>600</resolutiony>
+	<title>Eagle Engine - Editor Wysiwyg</title>
+	<background>
+		<r>200</r>
+		<g>200</g>
+		<b>200</b>
+		<a>255</a>
+	</background>
+	<fps>60</fps>
+	<viewport>
+		<x>0</x>
+		<y>0</y>
+		<w>800</w>
+		<h>600</h>
+	</viewport>
+	<lobby enabled=false>
+		<address>127.0.0.1</address>
+		<port>5090</port>
+		<limit>1024</limit>
+		<queue>8</queue>
+	</lobby>
+	<lights>
+        	<light ID=main positionx=250 positiony=250 intensity=1200 base=230 />
+	</lights>
+</engine>

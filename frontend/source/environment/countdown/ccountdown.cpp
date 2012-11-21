@@ -9,21 +9,19 @@
  */
 #include "ccountdown.h"
 int ccountdown::check(const char* label, int countdown_ms) {
+    int ms = countdown_ms;
     stime time = this->get(label);
-    int usecs, secs, result = EE_OK;
-    usecs = (abs(countdown_ms)%1000)*1000;
-    secs = (int)(abs(countdown_ms))/1000.0f;
+    int usecs = (abs(ms) % 1000)*1000;
+    int secs = (int) (abs(ms)) / 1000.0f;
     if ((time.secs >= secs) && (time.usecs >= usecs)) {
-        if (EE_CCOUNTDOWN_PRINT)
-            elog("ms: countdown finished");
+        if (EE_CCOUNTDOWN_PRINT) elog("ms: countdown finished");
         this->set(label);
-    } else
-        result = EE_ERROR;
-    if ((time.usecs == 0) && (time.secs == 0)) {
-        if (EE_CCOUNTDOWN_PRINT)
-            elog("label: time added to countdown");
-        result = EE_ERROR;
+        return EE_OK;
     }
-    return result;
+    if ((time.usecs == 0) && (time.secs == 0)) {
+        if (EE_CCOUNTDOWN_PRINT)elog("label: time added to countdown");
+        return EE_ERROR;
+    }
+    return EE_ERROR;
 }
 

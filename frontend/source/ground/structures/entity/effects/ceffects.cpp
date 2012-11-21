@@ -10,108 +10,80 @@
 #include "ceffects.h"
 carray<cfx> *ceffects::cfxlist;
 void ceffects::init (void) {
-    if (!(ceffects::cfxlist = enew carray<cfx>()))
-        ekill("out of memory");
+    ceffects::cfxlist = enew carray<cfx > ();
 }
 
 int ceffects::addfx (cfx* fx, const char* label) {
-    cfx* fxmodel = NULL;
-    int result = EE_OK;
     if (fx) {
-        if ((fxmodel = enew cfx())) {
-            if ((result = fxmodel->copyfx(fx, true))) {
-                if (estrlen(label) > 0) {
-                    if ((result = ceffects::cfxlist->add(fxmodel, label))) {
-                        if (EE_CEFFECTS_PRINT)
-                            elog("fx: %s added to ceffects correctly", label);
-                    } else
-                        elog("fx: impossible add to ceffects");
-                } else {
-                    result = EE_ERROR;
-                    elog("label: variable not inizialized");
-                }
-            }
+        cfx* fxmodel = enew cfx();
+        fxmodel->copyfx(fx, true);
+        if (label && strcmp(label, "") != 0) {
+            if (ceffects::cfxlist->add(fxmodel, label)) {
+                if (EE_CEFFECTS_PRINT) elog("fx: %s added to ceffects correctly", label);
+                return EE_OK;
+            } else
+                elog("fx: impossible add to ceffects");
         } else
-            ekill("out of memory");
-    } else {
-        result = EE_ERROR;
+            elog("label: variable not inizialized");
+    } else
         elog("fx: variable not inizialized");
-    }
     return EE_ERROR;
+}
+
+cfx* ceffects::getfx(const char* label) {
+    return cfxlist->get(label);
 }
 
 int ceffects::delfx(const char* label) {
     cfx* fx = NULL;
-    char *fxlabel = NULL;
-    int result = EE_OK;
-    bool founded = true;
     foreach(fx, ceffects::cfxlist) {
-        fxlabel = ceffects::cfxlist->label();
-        if (estrcmp(fxlabel, label) == 0) {
+        char* fxlabel = ceffects::cfxlist->label();
+        if (strcmp(fxlabel, label) == 0) {
             ceffects::cfxlist->del();
-            if (EE_CEFFECTS_PRINT)
-                elog("label: effect deleted from list correctly");
+            if (EE_CEFFECTS_PRINT) elog("label: effect deleted from list correctly");
             fx->unload();
             delete fx;
-            founded = true;
-            break;
+            return EE_OK;
         }
     }
-    if (!founded) {
-        result = EE_ERROR;
-        elog("label: %s not exist in fx list", label);
-    }
-    return result;
+    elog("label: %s not exist in fx list", label);
+    return EE_ERROR;
 }
 
 int ceffects::setfx(const char* label, sfxcircle circle_setting, efxposition fxposition, int lifetime_msecs, int offsetx, int offsety) {
     cfx* fx = NULL;
-    char *fxlabel = NULL;
-    int result = EE_OK;
-    bool founded = true;
     foreach(fx, ceffects::cfxlist) {
-        fxlabel = ceffects::cfxlist->label();
-        if (estrcmp(fxlabel, label) == 0) {
-            if ((result = fx->setfx(circle_setting, fxposition, lifetime_msecs, offsetx, offsety))) {
-                if (EE_CEFFECTS_PRINT)
-                    elog("label: %s effect setup completed", label);
-            } else {
-                result = EE_ERROR;
-                elog("label: can't set effect %s", label);
-            }
-            founded = true;
-            break;
+        char* fxlabel = ceffects::cfxlist->label();
+        if (strcmp(fxlabel, label) == 0) {
+            fx->setfx(circle_setting, fxposition, lifetime_msecs, offsetx, offsety);
+            if (EE_CEFFECTS_PRINT) elog("label: %s effect setup completed", label);
+            return EE_OK;
         }
     }
-    if (!founded) {
-        result = EE_ERROR;
-        elog("label: %s not exist in fx list", label);
-    }
-    return result;
+    elog("label: %s not exist in fx list", label);
+    return EE_ERROR;
 }
 
 int ceffects::setfx(const char* label, sfxrect rect_setting, efxposition fxposition, int lifetime_msecs, int offsetx, int offsety) {
     cfx* fx = NULL;
-    char *fxlabel = NULL;
-    int result = EE_OK;
-    bool founded = true;
     foreach(fx, ceffects::cfxlist) {
-        fxlabel = ceffects::cfxlist->label();
-        if (estrcmp(fxlabel, label) == 0) {
-            if ((result = fx->setfx(rect_setting, fxposition, lifetime_msecs, offsetx, offsety))) {
-                if (EE_CEFFECTS_PRINT)
-                    elog("label: %s effect setup completed", label);
-            } else {
-                result = EE_ERROR;
-                elog("label: can't set effect %s", label);
-            }
-            founded = true;
-            break;
+        char* fxlabel = ceffects::cfxlist->label();
+        if (strcmp(fxlabel, label) == 0) {
+            fx->setfx(rect_setting, fxposition, lifetime_msecs, offsetx, offsety);
+            if (EE_CEFFECTS_PRINT) elog("label: %s effect setup completed", label);
+            return EE_OK;
         }
     }
-    if (!founded) {
-        result = EE_ERROR;
-        elog("label: %s not exist in fx list", label);
-    }
+    elog("label: %s not exist in fx list", label);
     return EE_ERROR;
+}
+
+sfxcircle ceffects::getcircle_setting(float start_angle, float rotation_speed, int radius) {
+    sfxcircle circle = {start_angle, rotation_speed, radius};
+    return circle;
+}
+
+sfxrect ceffects::getrect_setting(float direction_angle, float speed, int start_distance) {
+    sfxrect rect = {direction_angle, speed, start_distance};
+    return rect;
 }

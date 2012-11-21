@@ -7,13 +7,20 @@
  *
  * Copyright (c) 2011 psycho games studios. All rights reserved.
  */
+
 #ifndef EF_COUNTDOWN
 #define EF_COUNTDOWN
-#include <cengine.h>
+#include "cengine.h"
 #include "debug.h"
+#ifdef EE_CCOUNTDOWN_PRINT
+#undef EE_CCOUNTDOWN_PRINT
+#define EE_CCOUNTDOWN_PRINT 1
+#else 
+#define EE_CCOUNTDOWN_PRINT 0
+#endif
 class ccountdown:public ctimer{
 public:
-    inline ccountdown (void) { this->init(); };
+    inline ccountdown () { this->init(); };
     int check (const char* label, int countdown_ms);
 };
 #endif
