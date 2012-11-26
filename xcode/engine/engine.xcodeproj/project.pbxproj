@@ -1,0 +1,1085 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB9383C01662264F00238139 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9383BF1662264F00238139 /* Cocoa.framework */; };
+		CB9383CA1662264F00238139 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB9383C81662264F00238139 /* InfoPlist.strings */; };
+		CB93845D1662266800238139 /* caudio.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9383D61662266800238139 /* caudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB93845E1662266800238139 /* cchannels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9383D91662266800238139 /* cchannels.cpp */; };
+		CB93845F1662266800238139 /* cchannels.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9383DA1662266800238139 /* cchannels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384601662266800238139 /* cwave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9383DC1662266800238139 /* cwave.cpp */; };
+		CB9384611662266800238139 /* cwave.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9383DD1662266800238139 /* cwave.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384621662266800238139 /* csample.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9383E01662266800238139 /* csample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384631662266800238139 /* cengine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9383E11662266800238139 /* cengine.cpp */; };
+		CB9384641662266800238139 /* cengine.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9383E21662266800238139 /* cengine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384651662266800238139 /* cgraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9383E41662266800238139 /* cgraphics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384661662266800238139 /* clights.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9383E71662266800238139 /* clights.cpp */; };
+		CB9384671662266800238139 /* clights.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9383E81662266800238139 /* clights.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384681662266800238139 /* cshadows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9383EA1662266800238139 /* cshadows.cpp */; };
+		CB9384691662266800238139 /* cshadows.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9383EB1662266800238139 /* cshadows.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB93846A1662266800238139 /* cmodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9383EF1662266800238139 /* cmodel.cpp */; };
+		CB93846B1662266800238139 /* cmodel.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9383F01662266800238139 /* cmodel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB93846C1662266800238139 /* cparticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9383F21662266800238139 /* cparticle.cpp */; };
+		CB93846D1662266800238139 /* cparticle.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9383F31662266800238139 /* cparticle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB93846E1662266800238139 /* ctarga.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9383F51662266800238139 /* ctarga.cpp */; };
+		CB93846F1662266800238139 /* ctarga.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9383F61662266800238139 /* ctarga.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384701662266800238139 /* ccontext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9383F91662266800238139 /* ccontext.cpp */; };
+		CB9384711662266800238139 /* ccontext.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9383FA1662266800238139 /* ccontext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384721662266800238139 /* cenvironment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9383FC1662266800238139 /* cenvironment.cpp */; };
+		CB9384731662266800238139 /* cenvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9383FD1662266800238139 /* cenvironment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384741662266800238139 /* cbutton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384011662266800238139 /* cbutton.cpp */; };
+		CB9384751662266800238139 /* cbutton.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384021662266800238139 /* cbutton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384761662266800238139 /* clabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384041662266800238139 /* clabel.cpp */; };
+		CB9384771662266800238139 /* clabel.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384051662266800238139 /* clabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384781662266800238139 /* cfield.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384071662266800238139 /* cfield.cpp */; };
+		CB9384791662266800238139 /* cfield.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384081662266800238139 /* cfield.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB93847A1662266800238139 /* cbrowser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB93840B1662266800238139 /* cbrowser.cpp */; };
+		CB93847B1662266800238139 /* cbrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = CB93840C1662266800238139 /* cbrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB93847C1662266800238139 /* clist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB93840D1662266800238139 /* clist.cpp */; };
+		CB93847D1662266800238139 /* clist.h in Headers */ = {isa = PBXBuildFile; fileRef = CB93840E1662266800238139 /* clist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB93847E1662266800238139 /* cscroller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384101662266800238139 /* cscroller.cpp */; };
+		CB93847F1662266800238139 /* cscroller.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384111662266800238139 /* cscroller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384801662266800238139 /* cwindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384131662266800238139 /* cwindow.cpp */; };
+		CB9384811662266800238139 /* cwindow.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384141662266800238139 /* cwindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384821662266800238139 /* ccomponent.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384171662266800238139 /* ccomponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384831662266800238139 /* cfonts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384191662266800238139 /* cfonts.cpp */; };
+		CB9384841662266800238139 /* cfonts.h in Headers */ = {isa = PBXBuildFile; fileRef = CB93841A1662266800238139 /* cfonts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384851662266800238139 /* ctheme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB93841C1662266800238139 /* ctheme.cpp */; };
+		CB9384861662266800238139 /* ctheme.h in Headers */ = {isa = PBXBuildFile; fileRef = CB93841D1662266800238139 /* ctheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384871662266800238139 /* cground.h in Headers */ = {isa = PBXBuildFile; fileRef = CB93841F1662266800238139 /* cground.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384881662266800238139 /* cfilesystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384221662266800238139 /* cfilesystem.cpp */; };
+		CB9384891662266800238139 /* cfilesystem.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384231662266800238139 /* cfilesystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB93848A1662266800238139 /* cxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384251662266800238139 /* cxml.cpp */; };
+		CB93848B1662266800238139 /* cxml.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384261662266800238139 /* cxml.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB93848C1662266800238139 /* cpaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384291662266800238139 /* cpaths.cpp */; };
+		CB93848D1662266800238139 /* cpaths.h in Headers */ = {isa = PBXBuildFile; fileRef = CB93842A1662266800238139 /* cpaths.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB93848E1662266800238139 /* ccollision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB93842D1662266800238139 /* ccollision.cpp */; };
+		CB93848F1662266800238139 /* ccollision.h in Headers */ = {isa = PBXBuildFile; fileRef = CB93842E1662266800238139 /* ccollision.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384901662266800238139 /* cimpacts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384301662266800238139 /* cimpacts.cpp */; };
+		CB9384911662266800238139 /* cimpacts.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384311662266800238139 /* cimpacts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384921662266800238139 /* cclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384341662266800238139 /* cclient.cpp */; };
+		CB9384931662266800238139 /* cclient.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384351662266800238139 /* cclient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384941662266800238139 /* cnetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384361662266800238139 /* cnetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384951662266800238139 /* cendian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384381662266800238139 /* cendian.cpp */; };
+		CB9384961662266800238139 /* cendian.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384391662266800238139 /* cendian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384971662266800238139 /* clobby.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB93843B1662266800238139 /* clobby.cpp */; };
+		CB9384981662266800238139 /* clobby.h in Headers */ = {isa = PBXBuildFile; fileRef = CB93843C1662266800238139 /* clobby.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384991662266800238139 /* cserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB93843E1662266800238139 /* cserver.cpp */; };
+		CB93849A1662266800238139 /* cserver.h in Headers */ = {isa = PBXBuildFile; fileRef = CB93843F1662266800238139 /* cserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB93849B1662266800238139 /* cstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384411662266800238139 /* cstring.cpp */; };
+		CB93849C1662266800238139 /* cstring.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384421662266800238139 /* cstring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB93849D1662266800238139 /* carray.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384451662266800238139 /* carray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB93849E1662266800238139 /* ctimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384471662266800238139 /* ctimer.cpp */; };
+		CB93849F1662266800238139 /* ctimer.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384481662266800238139 /* ctimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384A01662266800238139 /* GLee.c in Sources */ = {isa = PBXBuildFile; fileRef = CB93844B1662266800238139 /* GLee.c */; };
+		CB9384A11662266800238139 /* GLee.h in Headers */ = {isa = PBXBuildFile; fileRef = CB93844C1662266800238139 /* GLee.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384A21662266800238139 /* cinput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB93844F1662266800238139 /* cinput.cpp */; };
+		CB9384A31662266800238139 /* cinput.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384501662266800238139 /* cinput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384A41662266800238139 /* clog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384521662266800238139 /* clog.cpp */; };
+		CB9384A51662266800238139 /* clog.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384531662266800238139 /* clog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384A61662266800238139 /* cmath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384551662266800238139 /* cmath.cpp */; };
+		CB9384A71662266800238139 /* cmath.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384561662266800238139 /* cmath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384A81662266800238139 /* cmemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384581662266800238139 /* cmemory.cpp */; };
+		CB9384A91662266800238139 /* cmemory.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384591662266800238139 /* cmemory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384AA1662266800238139 /* crandom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB93845B1662266800238139 /* crandom.cpp */; };
+		CB9384AB1662266800238139 /* crandom.h in Headers */ = {isa = PBXBuildFile; fileRef = CB93845C1662266800238139 /* crandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384AD166226FC00238139 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9384AC166226FC00238139 /* OpenGL.framework */; };
+		CB9384AF1662270000238139 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9384AE1662270000238139 /* OpenAL.framework */; };
+		CB9384B11662270500238139 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9384B01662270500238139 /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB9383BC1662264F00238139 /* engine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = engine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9383BF1662264F00238139 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CB9383C21662264F00238139 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CB9383C31662264F00238139 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CB9383C41662264F00238139 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB9383C71662264F00238139 /* engine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "engine-Info.plist"; sourceTree = "<group>"; };
+		CB9383C91662264F00238139 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB9383CB1662264F00238139 /* engine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "engine-Prefix.pch"; sourceTree = "<group>"; };
+		CB9383D61662266800238139 /* caudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = caudio.h; sourceTree = "<group>"; };
+		CB9383D91662266800238139 /* cchannels.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cchannels.cpp; sourceTree = "<group>"; };
+		CB9383DA1662266800238139 /* cchannels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cchannels.h; sourceTree = "<group>"; };
+		CB9383DC1662266800238139 /* cwave.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cwave.cpp; sourceTree = "<group>"; };
+		CB9383DD1662266800238139 /* cwave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cwave.h; sourceTree = "<group>"; };
+		CB9383E01662266800238139 /* csample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csample.h; sourceTree = "<group>"; };
+		CB9383E11662266800238139 /* cengine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cengine.cpp; sourceTree = "<group>"; };
+		CB9383E21662266800238139 /* cengine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cengine.h; sourceTree = "<group>"; };
+		CB9383E41662266800238139 /* cgraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cgraphics.h; sourceTree = "<group>"; };
+		CB9383E71662266800238139 /* clights.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clights.cpp; sourceTree = "<group>"; };
+		CB9383E81662266800238139 /* clights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clights.h; sourceTree = "<group>"; };
+		CB9383EA1662266800238139 /* cshadows.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cshadows.cpp; sourceTree = "<group>"; };
+		CB9383EB1662266800238139 /* cshadows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cshadows.h; sourceTree = "<group>"; };
+		CB9383EF1662266800238139 /* cmodel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cmodel.cpp; sourceTree = "<group>"; };
+		CB9383F01662266800238139 /* cmodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmodel.h; sourceTree = "<group>"; };
+		CB9383F21662266800238139 /* cparticle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cparticle.cpp; sourceTree = "<group>"; };
+		CB9383F31662266800238139 /* cparticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cparticle.h; sourceTree = "<group>"; };
+		CB9383F51662266800238139 /* ctarga.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ctarga.cpp; sourceTree = "<group>"; };
+		CB9383F61662266800238139 /* ctarga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctarga.h; sourceTree = "<group>"; };
+		CB9383F91662266800238139 /* ccontext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ccontext.cpp; sourceTree = "<group>"; };
+		CB9383FA1662266800238139 /* ccontext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccontext.h; sourceTree = "<group>"; };
+		CB9383FC1662266800238139 /* cenvironment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cenvironment.cpp; sourceTree = "<group>"; };
+		CB9383FD1662266800238139 /* cenvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cenvironment.h; sourceTree = "<group>"; };
+		CB9384011662266800238139 /* cbutton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cbutton.cpp; sourceTree = "<group>"; };
+		CB9384021662266800238139 /* cbutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cbutton.h; sourceTree = "<group>"; };
+		CB9384041662266800238139 /* clabel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clabel.cpp; sourceTree = "<group>"; };
+		CB9384051662266800238139 /* clabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clabel.h; sourceTree = "<group>"; };
+		CB9384071662266800238139 /* cfield.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cfield.cpp; sourceTree = "<group>"; };
+		CB9384081662266800238139 /* cfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cfield.h; sourceTree = "<group>"; };
+		CB93840B1662266800238139 /* cbrowser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cbrowser.cpp; sourceTree = "<group>"; };
+		CB93840C1662266800238139 /* cbrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cbrowser.h; sourceTree = "<group>"; };
+		CB93840D1662266800238139 /* clist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clist.cpp; sourceTree = "<group>"; };
+		CB93840E1662266800238139 /* clist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clist.h; sourceTree = "<group>"; };
+		CB9384101662266800238139 /* cscroller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cscroller.cpp; sourceTree = "<group>"; };
+		CB9384111662266800238139 /* cscroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cscroller.h; sourceTree = "<group>"; };
+		CB9384131662266800238139 /* cwindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cwindow.cpp; sourceTree = "<group>"; };
+		CB9384141662266800238139 /* cwindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cwindow.h; sourceTree = "<group>"; };
+		CB9384171662266800238139 /* ccomponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccomponent.h; sourceTree = "<group>"; };
+		CB9384191662266800238139 /* cfonts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cfonts.cpp; sourceTree = "<group>"; };
+		CB93841A1662266800238139 /* cfonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cfonts.h; sourceTree = "<group>"; };
+		CB93841C1662266800238139 /* ctheme.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ctheme.cpp; sourceTree = "<group>"; };
+		CB93841D1662266800238139 /* ctheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctheme.h; sourceTree = "<group>"; };
+		CB93841F1662266800238139 /* cground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cground.h; sourceTree = "<group>"; };
+		CB9384221662266800238139 /* cfilesystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cfilesystem.cpp; sourceTree = "<group>"; };
+		CB9384231662266800238139 /* cfilesystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cfilesystem.h; sourceTree = "<group>"; };
+		CB9384251662266800238139 /* cxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cxml.cpp; sourceTree = "<group>"; };
+		CB9384261662266800238139 /* cxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cxml.h; sourceTree = "<group>"; };
+		CB9384291662266800238139 /* cpaths.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cpaths.cpp; sourceTree = "<group>"; };
+		CB93842A1662266800238139 /* cpaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpaths.h; sourceTree = "<group>"; };
+		CB93842D1662266800238139 /* ccollision.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ccollision.cpp; sourceTree = "<group>"; };
+		CB93842E1662266800238139 /* ccollision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccollision.h; sourceTree = "<group>"; };
+		CB9384301662266800238139 /* cimpacts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cimpacts.cpp; sourceTree = "<group>"; };
+		CB9384311662266800238139 /* cimpacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cimpacts.h; sourceTree = "<group>"; };
+		CB9384341662266800238139 /* cclient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cclient.cpp; sourceTree = "<group>"; };
+		CB9384351662266800238139 /* cclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cclient.h; sourceTree = "<group>"; };
+		CB9384361662266800238139 /* cnetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cnetworking.h; sourceTree = "<group>"; };
+		CB9384381662266800238139 /* cendian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cendian.cpp; sourceTree = "<group>"; };
+		CB9384391662266800238139 /* cendian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cendian.h; sourceTree = "<group>"; };
+		CB93843B1662266800238139 /* clobby.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clobby.cpp; sourceTree = "<group>"; };
+		CB93843C1662266800238139 /* clobby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clobby.h; sourceTree = "<group>"; };
+		CB93843E1662266800238139 /* cserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cserver.cpp; sourceTree = "<group>"; };
+		CB93843F1662266800238139 /* cserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cserver.h; sourceTree = "<group>"; };
+		CB9384411662266800238139 /* cstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cstring.cpp; sourceTree = "<group>"; };
+		CB9384421662266800238139 /* cstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cstring.h; sourceTree = "<group>"; };
+		CB9384451662266800238139 /* carray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carray.h; sourceTree = "<group>"; };
+		CB9384471662266800238139 /* ctimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ctimer.cpp; sourceTree = "<group>"; };
+		CB9384481662266800238139 /* ctimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctimer.h; sourceTree = "<group>"; };
+		CB93844B1662266800238139 /* GLee.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLee.c; sourceTree = "<group>"; };
+		CB93844C1662266800238139 /* GLee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLee.h; sourceTree = "<group>"; };
+		CB93844F1662266800238139 /* cinput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cinput.cpp; sourceTree = "<group>"; };
+		CB9384501662266800238139 /* cinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cinput.h; sourceTree = "<group>"; };
+		CB9384521662266800238139 /* clog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clog.cpp; sourceTree = "<group>"; };
+		CB9384531662266800238139 /* clog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clog.h; sourceTree = "<group>"; };
+		CB9384551662266800238139 /* cmath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cmath.cpp; sourceTree = "<group>"; };
+		CB9384561662266800238139 /* cmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmath.h; sourceTree = "<group>"; };
+		CB9384581662266800238139 /* cmemory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cmemory.cpp; sourceTree = "<group>"; };
+		CB9384591662266800238139 /* cmemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmemory.h; sourceTree = "<group>"; };
+		CB93845B1662266800238139 /* crandom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = crandom.cpp; sourceTree = "<group>"; };
+		CB93845C1662266800238139 /* crandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crandom.h; sourceTree = "<group>"; };
+		CB9384AC166226FC00238139 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		CB9384AE1662270000238139 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		CB9384B01662270500238139 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB9383B81662264F00238139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9384AF1662270000238139 /* OpenAL.framework in Frameworks */,
+				CB9384AD166226FC00238139 /* OpenGL.framework in Frameworks */,
+				CB9384B11662270500238139 /* GLUT.framework in Frameworks */,
+				CB9383C01662264F00238139 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB9383B01662264E00238139 = {
+			isa = PBXGroup;
+			children = (
+				CB9383D41662266800238139 /* source */,
+				CB9383C51662264F00238139 /* engine */,
+				CB9383BE1662264F00238139 /* Frameworks */,
+				CB9383BD1662264F00238139 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB9383BD1662264F00238139 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383BC1662264F00238139 /* engine.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB9383BE1662264F00238139 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384B01662270500238139 /* GLUT.framework */,
+				CB9384AE1662270000238139 /* OpenAL.framework */,
+				CB9384AC166226FC00238139 /* OpenGL.framework */,
+				CB9383BF1662264F00238139 /* Cocoa.framework */,
+				CB9383C11662264F00238139 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB9383C11662264F00238139 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383C21662264F00238139 /* AppKit.framework */,
+				CB9383C31662264F00238139 /* CoreData.framework */,
+				CB9383C41662264F00238139 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CB9383C51662264F00238139 /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383C61662264F00238139 /* Supporting Files */,
+			);
+			path = engine;
+			sourceTree = "<group>";
+		};
+		CB9383C61662264F00238139 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383C71662264F00238139 /* engine-Info.plist */,
+				CB9383C81662264F00238139 /* InfoPlist.strings */,
+				CB9383CB1662264F00238139 /* engine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB9383D41662266800238139 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383D51662266800238139 /* audio */,
+				CB9383E11662266800238139 /* cengine.cpp */,
+				CB9383E21662266800238139 /* cengine.h */,
+				CB9383E31662266800238139 /* graphics */,
+				CB93841E1662266800238139 /* ground */,
+			);
+			name = source;
+			path = ../../engine/source;
+			sourceTree = "<group>";
+		};
+		CB9383D51662266800238139 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383D61662266800238139 /* caudio.h */,
+				CB9383D71662266800238139 /* structures */,
+				CB9383DE1662266800238139 /* system */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		CB9383D71662266800238139 /* structures */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383D81662266800238139 /* channels */,
+				CB9383DB1662266800238139 /* wave */,
+			);
+			path = structures;
+			sourceTree = "<group>";
+		};
+		CB9383D81662266800238139 /* channels */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383D91662266800238139 /* cchannels.cpp */,
+				CB9383DA1662266800238139 /* cchannels.h */,
+			);
+			path = channels;
+			sourceTree = "<group>";
+		};
+		CB9383DB1662266800238139 /* wave */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383DC1662266800238139 /* cwave.cpp */,
+				CB9383DD1662266800238139 /* cwave.h */,
+			);
+			path = wave;
+			sourceTree = "<group>";
+		};
+		CB9383DE1662266800238139 /* system */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383DF1662266800238139 /* sample */,
+			);
+			path = system;
+			sourceTree = "<group>";
+		};
+		CB9383DF1662266800238139 /* sample */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383E01662266800238139 /* csample.h */,
+			);
+			path = sample;
+			sourceTree = "<group>";
+		};
+		CB9383E31662266800238139 /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383E41662266800238139 /* cgraphics.h */,
+				CB9383E51662266800238139 /* environment */,
+				CB9383EC1662266800238139 /* ground */,
+				CB9383FE1662266800238139 /* uid */,
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
+		CB9383E51662266800238139 /* environment */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383E61662266800238139 /* lights */,
+				CB9383E91662266800238139 /* shadow */,
+			);
+			path = environment;
+			sourceTree = "<group>";
+		};
+		CB9383E61662266800238139 /* lights */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383E71662266800238139 /* clights.cpp */,
+				CB9383E81662266800238139 /* clights.h */,
+			);
+			path = lights;
+			sourceTree = "<group>";
+		};
+		CB9383E91662266800238139 /* shadow */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383EA1662266800238139 /* cshadows.cpp */,
+				CB9383EB1662266800238139 /* cshadows.h */,
+			);
+			path = shadow;
+			sourceTree = "<group>";
+		};
+		CB9383EC1662266800238139 /* ground */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383ED1662266800238139 /* structures */,
+				CB9383F71662266800238139 /* system */,
+			);
+			path = ground;
+			sourceTree = "<group>";
+		};
+		CB9383ED1662266800238139 /* structures */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383EE1662266800238139 /* model */,
+				CB9383F11662266800238139 /* particle */,
+				CB9383F41662266800238139 /* targa */,
+			);
+			path = structures;
+			sourceTree = "<group>";
+		};
+		CB9383EE1662266800238139 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383EF1662266800238139 /* cmodel.cpp */,
+				CB9383F01662266800238139 /* cmodel.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CB9383F11662266800238139 /* particle */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383F21662266800238139 /* cparticle.cpp */,
+				CB9383F31662266800238139 /* cparticle.h */,
+			);
+			path = particle;
+			sourceTree = "<group>";
+		};
+		CB9383F41662266800238139 /* targa */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383F51662266800238139 /* ctarga.cpp */,
+				CB9383F61662266800238139 /* ctarga.h */,
+			);
+			path = targa;
+			sourceTree = "<group>";
+		};
+		CB9383F71662266800238139 /* system */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383F81662266800238139 /* context */,
+				CB9383FB1662266800238139 /* environment */,
+			);
+			path = system;
+			sourceTree = "<group>";
+		};
+		CB9383F81662266800238139 /* context */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383F91662266800238139 /* ccontext.cpp */,
+				CB9383FA1662266800238139 /* ccontext.h */,
+			);
+			path = context;
+			sourceTree = "<group>";
+		};
+		CB9383FB1662266800238139 /* environment */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383FC1662266800238139 /* cenvironment.cpp */,
+				CB9383FD1662266800238139 /* cenvironment.h */,
+			);
+			path = environment;
+			sourceTree = "<group>";
+		};
+		CB9383FE1662266800238139 /* uid */ = {
+			isa = PBXGroup;
+			children = (
+				CB9383FF1662266800238139 /* structures */,
+				CB9384151662266800238139 /* system */,
+			);
+			path = uid;
+			sourceTree = "<group>";
+		};
+		CB9383FF1662266800238139 /* structures */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384001662266800238139 /* button */,
+				CB9384031662266800238139 /* label */,
+				CB93840F1662266800238139 /* scroll */,
+				CB9384121662266800238139 /* window */,
+			);
+			path = structures;
+			sourceTree = "<group>";
+		};
+		CB9384001662266800238139 /* button */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384011662266800238139 /* cbutton.cpp */,
+				CB9384021662266800238139 /* cbutton.h */,
+			);
+			path = button;
+			sourceTree = "<group>";
+		};
+		CB9384031662266800238139 /* label */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384041662266800238139 /* clabel.cpp */,
+				CB9384051662266800238139 /* clabel.h */,
+				CB9384061662266800238139 /* field */,
+				CB9384091662266800238139 /* list */,
+			);
+			path = label;
+			sourceTree = "<group>";
+		};
+		CB9384061662266800238139 /* field */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384071662266800238139 /* cfield.cpp */,
+				CB9384081662266800238139 /* cfield.h */,
+			);
+			path = field;
+			sourceTree = "<group>";
+		};
+		CB9384091662266800238139 /* list */ = {
+			isa = PBXGroup;
+			children = (
+				CB93840A1662266800238139 /* browser */,
+				CB93840D1662266800238139 /* clist.cpp */,
+				CB93840E1662266800238139 /* clist.h */,
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
+		CB93840A1662266800238139 /* browser */ = {
+			isa = PBXGroup;
+			children = (
+				CB93840B1662266800238139 /* cbrowser.cpp */,
+				CB93840C1662266800238139 /* cbrowser.h */,
+			);
+			path = browser;
+			sourceTree = "<group>";
+		};
+		CB93840F1662266800238139 /* scroll */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384101662266800238139 /* cscroller.cpp */,
+				CB9384111662266800238139 /* cscroller.h */,
+			);
+			path = scroll;
+			sourceTree = "<group>";
+		};
+		CB9384121662266800238139 /* window */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384131662266800238139 /* cwindow.cpp */,
+				CB9384141662266800238139 /* cwindow.h */,
+			);
+			path = window;
+			sourceTree = "<group>";
+		};
+		CB9384151662266800238139 /* system */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384161662266800238139 /* component */,
+				CB9384181662266800238139 /* fonts */,
+				CB93841B1662266800238139 /* theme */,
+			);
+			path = system;
+			sourceTree = "<group>";
+		};
+		CB9384161662266800238139 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384171662266800238139 /* ccomponent.h */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		CB9384181662266800238139 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384191662266800238139 /* cfonts.cpp */,
+				CB93841A1662266800238139 /* cfonts.h */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		CB93841B1662266800238139 /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				CB93841C1662266800238139 /* ctheme.cpp */,
+				CB93841D1662266800238139 /* ctheme.h */,
+			);
+			path = theme;
+			sourceTree = "<group>";
+		};
+		CB93841E1662266800238139 /* ground */ = {
+			isa = PBXGroup;
+			children = (
+				CB93841F1662266800238139 /* cground.h */,
+				CB9384201662266800238139 /* datafiles */,
+				CB9384271662266800238139 /* environment */,
+				CB9384321662266800238139 /* networking */,
+				CB9384401662266800238139 /* strings */,
+				CB9384431662266800238139 /* structures */,
+				CB9384491662266800238139 /* support */,
+				CB93844D1662266800238139 /* system */,
+			);
+			path = ground;
+			sourceTree = "<group>";
+		};
+		CB9384201662266800238139 /* datafiles */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384211662266800238139 /* filesystem */,
+				CB9384241662266800238139 /* xml */,
+			);
+			path = datafiles;
+			sourceTree = "<group>";
+		};
+		CB9384211662266800238139 /* filesystem */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384221662266800238139 /* cfilesystem.cpp */,
+				CB9384231662266800238139 /* cfilesystem.h */,
+			);
+			path = filesystem;
+			sourceTree = "<group>";
+		};
+		CB9384241662266800238139 /* xml */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384251662266800238139 /* cxml.cpp */,
+				CB9384261662266800238139 /* cxml.h */,
+			);
+			path = xml;
+			sourceTree = "<group>";
+		};
+		CB9384271662266800238139 /* environment */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384281662266800238139 /* paths */,
+				CB93842B1662266800238139 /* physics */,
+			);
+			path = environment;
+			sourceTree = "<group>";
+		};
+		CB9384281662266800238139 /* paths */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384291662266800238139 /* cpaths.cpp */,
+				CB93842A1662266800238139 /* cpaths.h */,
+			);
+			path = paths;
+			sourceTree = "<group>";
+		};
+		CB93842B1662266800238139 /* physics */ = {
+			isa = PBXGroup;
+			children = (
+				CB93842C1662266800238139 /* collision */,
+			);
+			path = physics;
+			sourceTree = "<group>";
+		};
+		CB93842C1662266800238139 /* collision */ = {
+			isa = PBXGroup;
+			children = (
+				CB93842D1662266800238139 /* ccollision.cpp */,
+				CB93842E1662266800238139 /* ccollision.h */,
+				CB93842F1662266800238139 /* impacts */,
+			);
+			path = collision;
+			sourceTree = "<group>";
+		};
+		CB93842F1662266800238139 /* impacts */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384301662266800238139 /* cimpacts.cpp */,
+				CB9384311662266800238139 /* cimpacts.h */,
+			);
+			path = impacts;
+			sourceTree = "<group>";
+		};
+		CB9384321662266800238139 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384331662266800238139 /* client */,
+				CB9384361662266800238139 /* cnetworking.h */,
+				CB9384371662266800238139 /* endian */,
+				CB93843A1662266800238139 /* lobby */,
+				CB93843D1662266800238139 /* server */,
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
+		CB9384331662266800238139 /* client */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384341662266800238139 /* cclient.cpp */,
+				CB9384351662266800238139 /* cclient.h */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		CB9384371662266800238139 /* endian */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384381662266800238139 /* cendian.cpp */,
+				CB9384391662266800238139 /* cendian.h */,
+			);
+			path = endian;
+			sourceTree = "<group>";
+		};
+		CB93843A1662266800238139 /* lobby */ = {
+			isa = PBXGroup;
+			children = (
+				CB93843B1662266800238139 /* clobby.cpp */,
+				CB93843C1662266800238139 /* clobby.h */,
+			);
+			path = lobby;
+			sourceTree = "<group>";
+		};
+		CB93843D1662266800238139 /* server */ = {
+			isa = PBXGroup;
+			children = (
+				CB93843E1662266800238139 /* cserver.cpp */,
+				CB93843F1662266800238139 /* cserver.h */,
+			);
+			path = server;
+			sourceTree = "<group>";
+		};
+		CB9384401662266800238139 /* strings */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384411662266800238139 /* cstring.cpp */,
+				CB9384421662266800238139 /* cstring.h */,
+			);
+			path = strings;
+			sourceTree = "<group>";
+		};
+		CB9384431662266800238139 /* structures */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384441662266800238139 /* array */,
+				CB9384461662266800238139 /* timer */,
+			);
+			path = structures;
+			sourceTree = "<group>";
+		};
+		CB9384441662266800238139 /* array */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384451662266800238139 /* carray.h */,
+			);
+			path = array;
+			sourceTree = "<group>";
+		};
+		CB9384461662266800238139 /* timer */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384471662266800238139 /* ctimer.cpp */,
+				CB9384481662266800238139 /* ctimer.h */,
+			);
+			path = timer;
+			sourceTree = "<group>";
+		};
+		CB9384491662266800238139 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				CB93844A1662266800238139 /* glee */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
+		CB93844A1662266800238139 /* glee */ = {
+			isa = PBXGroup;
+			children = (
+				CB93844B1662266800238139 /* GLee.c */,
+				CB93844C1662266800238139 /* GLee.h */,
+			);
+			path = glee;
+			sourceTree = "<group>";
+		};
+		CB93844D1662266800238139 /* system */ = {
+			isa = PBXGroup;
+			children = (
+				CB93844E1662266800238139 /* input */,
+				CB9384511662266800238139 /* log */,
+				CB9384541662266800238139 /* math */,
+				CB9384571662266800238139 /* memory */,
+				CB93845A1662266800238139 /* random */,
+			);
+			path = system;
+			sourceTree = "<group>";
+		};
+		CB93844E1662266800238139 /* input */ = {
+			isa = PBXGroup;
+			children = (
+				CB93844F1662266800238139 /* cinput.cpp */,
+				CB9384501662266800238139 /* cinput.h */,
+			);
+			path = input;
+			sourceTree = "<group>";
+		};
+		CB9384511662266800238139 /* log */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384521662266800238139 /* clog.cpp */,
+				CB9384531662266800238139 /* clog.h */,
+			);
+			path = log;
+			sourceTree = "<group>";
+		};
+		CB9384541662266800238139 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384551662266800238139 /* cmath.cpp */,
+				CB9384561662266800238139 /* cmath.h */,
+			);
+			path = math;
+			sourceTree = "<group>";
+		};
+		CB9384571662266800238139 /* memory */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384581662266800238139 /* cmemory.cpp */,
+				CB9384591662266800238139 /* cmemory.h */,
+			);
+			path = memory;
+			sourceTree = "<group>";
+		};
+		CB93845A1662266800238139 /* random */ = {
+			isa = PBXGroup;
+			children = (
+				CB93845B1662266800238139 /* crandom.cpp */,
+				CB93845C1662266800238139 /* crandom.h */,
+			);
+			path = random;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CB9383B91662264F00238139 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9384641662266800238139 /* cengine.h in Headers */,
+				CB93845D1662266800238139 /* caudio.h in Headers */,
+				CB93845F1662266800238139 /* cchannels.h in Headers */,
+				CB9384611662266800238139 /* cwave.h in Headers */,
+				CB9384621662266800238139 /* csample.h in Headers */,
+				CB9384651662266800238139 /* cgraphics.h in Headers */,
+				CB9384671662266800238139 /* clights.h in Headers */,
+				CB9384691662266800238139 /* cshadows.h in Headers */,
+				CB93846B1662266800238139 /* cmodel.h in Headers */,
+				CB93846D1662266800238139 /* cparticle.h in Headers */,
+				CB93846F1662266800238139 /* ctarga.h in Headers */,
+				CB9384711662266800238139 /* ccontext.h in Headers */,
+				CB9384731662266800238139 /* cenvironment.h in Headers */,
+				CB9384751662266800238139 /* cbutton.h in Headers */,
+				CB9384771662266800238139 /* clabel.h in Headers */,
+				CB9384791662266800238139 /* cfield.h in Headers */,
+				CB93847B1662266800238139 /* cbrowser.h in Headers */,
+				CB93847D1662266800238139 /* clist.h in Headers */,
+				CB93847F1662266800238139 /* cscroller.h in Headers */,
+				CB9384811662266800238139 /* cwindow.h in Headers */,
+				CB9384821662266800238139 /* ccomponent.h in Headers */,
+				CB9384841662266800238139 /* cfonts.h in Headers */,
+				CB9384861662266800238139 /* ctheme.h in Headers */,
+				CB9384871662266800238139 /* cground.h in Headers */,
+				CB9384891662266800238139 /* cfilesystem.h in Headers */,
+				CB93848B1662266800238139 /* cxml.h in Headers */,
+				CB93848D1662266800238139 /* cpaths.h in Headers */,
+				CB93848F1662266800238139 /* ccollision.h in Headers */,
+				CB9384911662266800238139 /* cimpacts.h in Headers */,
+				CB9384931662266800238139 /* cclient.h in Headers */,
+				CB9384941662266800238139 /* cnetworking.h in Headers */,
+				CB9384961662266800238139 /* cendian.h in Headers */,
+				CB9384981662266800238139 /* clobby.h in Headers */,
+				CB93849A1662266800238139 /* cserver.h in Headers */,
+				CB93849C1662266800238139 /* cstring.h in Headers */,
+				CB93849D1662266800238139 /* carray.h in Headers */,
+				CB93849F1662266800238139 /* ctimer.h in Headers */,
+				CB9384A11662266800238139 /* GLee.h in Headers */,
+				CB9384A31662266800238139 /* cinput.h in Headers */,
+				CB9384A51662266800238139 /* clog.h in Headers */,
+				CB9384A71662266800238139 /* cmath.h in Headers */,
+				CB9384A91662266800238139 /* cmemory.h in Headers */,
+				CB9384AB1662266800238139 /* crandom.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CB9383BB1662264F00238139 /* engine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9383D11662264F00238139 /* Build configuration list for PBXNativeTarget "engine" */;
+			buildPhases = (
+				CB9383B71662264F00238139 /* Sources */,
+				CB9383B81662264F00238139 /* Frameworks */,
+				CB9383B91662264F00238139 /* Headers */,
+				CB9383BA1662264F00238139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = engine;
+			productName = engine;
+			productReference = CB9383BC1662264F00238139 /* engine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB9383B21662264F00238139 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "psycho games studios";
+			};
+			buildConfigurationList = CB9383B51662264F00238139 /* Build configuration list for PBXProject "engine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB9383B01662264E00238139;
+			productRefGroup = CB9383BD1662264F00238139 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB9383BB1662264F00238139 /* engine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB9383BA1662264F00238139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9383CA1662264F00238139 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB9383B71662264F00238139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB93845E1662266800238139 /* cchannels.cpp in Sources */,
+				CB9384601662266800238139 /* cwave.cpp in Sources */,
+				CB9384631662266800238139 /* cengine.cpp in Sources */,
+				CB9384661662266800238139 /* clights.cpp in Sources */,
+				CB9384681662266800238139 /* cshadows.cpp in Sources */,
+				CB93846A1662266800238139 /* cmodel.cpp in Sources */,
+				CB93846C1662266800238139 /* cparticle.cpp in Sources */,
+				CB93846E1662266800238139 /* ctarga.cpp in Sources */,
+				CB9384701662266800238139 /* ccontext.cpp in Sources */,
+				CB9384721662266800238139 /* cenvironment.cpp in Sources */,
+				CB9384741662266800238139 /* cbutton.cpp in Sources */,
+				CB9384761662266800238139 /* clabel.cpp in Sources */,
+				CB9384781662266800238139 /* cfield.cpp in Sources */,
+				CB93847A1662266800238139 /* cbrowser.cpp in Sources */,
+				CB93847C1662266800238139 /* clist.cpp in Sources */,
+				CB93847E1662266800238139 /* cscroller.cpp in Sources */,
+				CB9384801662266800238139 /* cwindow.cpp in Sources */,
+				CB9384831662266800238139 /* cfonts.cpp in Sources */,
+				CB9384851662266800238139 /* ctheme.cpp in Sources */,
+				CB9384881662266800238139 /* cfilesystem.cpp in Sources */,
+				CB93848A1662266800238139 /* cxml.cpp in Sources */,
+				CB93848C1662266800238139 /* cpaths.cpp in Sources */,
+				CB93848E1662266800238139 /* ccollision.cpp in Sources */,
+				CB9384901662266800238139 /* cimpacts.cpp in Sources */,
+				CB9384921662266800238139 /* cclient.cpp in Sources */,
+				CB9384951662266800238139 /* cendian.cpp in Sources */,
+				CB9384971662266800238139 /* clobby.cpp in Sources */,
+				CB9384991662266800238139 /* cserver.cpp in Sources */,
+				CB93849B1662266800238139 /* cstring.cpp in Sources */,
+				CB93849E1662266800238139 /* ctimer.cpp in Sources */,
+				CB9384A01662266800238139 /* GLee.c in Sources */,
+				CB9384A21662266800238139 /* cinput.cpp in Sources */,
+				CB9384A41662266800238139 /* clog.cpp in Sources */,
+				CB9384A61662266800238139 /* cmath.cpp in Sources */,
+				CB9384A81662266800238139 /* cmemory.cpp in Sources */,
+				CB9384AA1662266800238139 /* crandom.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB9383C81662264F00238139 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB9383C91662264F00238139 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB9383CF1662264F00238139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CB9383D01662264F00238139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CB9383D21662264F00238139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_EMPTY_BODY = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "engine/engine-Prefix.pch";
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				INFOPLIST_FILE = "engine/engine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		CB9383D31662264F00238139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_EMPTY_BODY = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "engine/engine-Prefix.pch";
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				INFOPLIST_FILE = "engine/engine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB9383B51662264F00238139 /* Build configuration list for PBXProject "engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9383CF1662264F00238139 /* Debug */,
+				CB9383D01662264F00238139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9383D11662264F00238139 /* Build configuration list for PBXNativeTarget "engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9383D21662264F00238139 /* Debug */,
+				CB9383D31662264F00238139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB9383B21662264F00238139 /* Project object */;
+}

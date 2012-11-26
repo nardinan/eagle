@@ -282,7 +282,7 @@ void cengine::redisplay (void) {
         cengine::fps.set("F");
         cengine::counter = 0;
     }
-    if (elpased = ((cengine::fps.get("C").usecs*cengine::frames[EFPS_TODOFPS])) < 1000000.0f)
+    if ((elpased = ((cengine::fps.get("C").usecs*cengine::frames[EFPS_TODOFPS]))) < 1000000.0f)
         cengine::frames[EFPS_UPDATE] = ((1000000.0f-elpased)/cengine::frames[EFPS_TODOFPS]);
     else
         cengine::frames[EFPS_UPDATE] = 0.0f;

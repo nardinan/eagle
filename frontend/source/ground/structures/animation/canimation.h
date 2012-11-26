@@ -7,18 +7,15 @@
  *
  * Copyright (c) 2011 psycho games studios. All rights reserved.
  */
-
 #ifndef EF_ANIMATION
 #define EF_ANIMATION
-#include "cengine.h"
+#ifndef _WIN32
+#include <engine/cengine.h>
+#else
+#include <cengine.h>
+#endif
 #include "cfx.h"
 #include "debug.h"
-#ifdef EE_CANIMATION_PRINT
-#undef EE_CANIMATION_PRINT
-#define EE_CANIMATION_PRINT 1
-#else 
-#define EE_CANIMATION_PRINT 0
-#endif
 class canimation:public eagleclass {
 public:
     static int loadmodel (cmodel** modelptr, const char* packagefilename);

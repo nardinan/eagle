@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB9384C21662272900238139 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9384C11662272900238139 /* Cocoa.framework */; };
+		CB9384CC1662272900238139 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB9384CA1662272900238139 /* InfoPlist.strings */; };
+		CB9384F6166227CC00238139 /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384E3166227CC00238139 /* debug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384F7166227CC00238139 /* ccountdown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384E6166227CC00238139 /* ccountdown.cpp */; };
+		CB9384F8166227CC00238139 /* ccountdown.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384E7166227CC00238139 /* ccountdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384F9166227CC00238139 /* canimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384EB166227CC00238139 /* canimation.cpp */; };
+		CB9384FA166227CC00238139 /* canimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384EC166227CC00238139 /* canimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384FB166227CC00238139 /* centity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384EE166227CC00238139 /* centity.cpp */; };
+		CB9384FC166227CC00238139 /* centity.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384EF166227CC00238139 /* centity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384FD166227CC00238139 /* ceffects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384F1166227CC00238139 /* ceffects.cpp */; };
+		CB9384FE166227CC00238139 /* ceffects.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384F2166227CC00238139 /* ceffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9384FF166227CC00238139 /* cfx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB9384F4166227CC00238139 /* cfx.cpp */; };
+		CB938500166227CC00238139 /* cfx.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9384F5166227CC00238139 /* cfx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB938506166227FE00238139 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB938505166227FE00238139 /* OpenGL.framework */; };
+		CB9385081662280500238139 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9385071662280500238139 /* OpenAL.framework */; };
+		CB93850A1662280900238139 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9385091662280900238139 /* GLUT.framework */; };
+		CB93856F1662BB9600238139 /* engine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB93856E1662BB9600238139 /* engine.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB93857C1662BD7C00238139 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB9385611662B81E00238139 /* engine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CB9383BC1662264F00238139;
+			remoteInfo = engine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB9384BE1662272900238139 /* frontend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = frontend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9384C11662272900238139 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CB9384C41662272900238139 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CB9384C51662272900238139 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CB9384C61662272900238139 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB9384C91662272900238139 /* frontend-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "frontend-Info.plist"; sourceTree = "<group>"; };
+		CB9384CB1662272900238139 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB9384CD1662272900238139 /* frontend-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "frontend-Prefix.pch"; sourceTree = "<group>"; };
+		CB9384E3166227CC00238139 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		CB9384E6166227CC00238139 /* ccountdown.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ccountdown.cpp; sourceTree = "<group>"; };
+		CB9384E7166227CC00238139 /* ccountdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccountdown.h; sourceTree = "<group>"; };
+		CB9384EB166227CC00238139 /* canimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = canimation.cpp; sourceTree = "<group>"; };
+		CB9384EC166227CC00238139 /* canimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = canimation.h; sourceTree = "<group>"; };
+		CB9384EE166227CC00238139 /* centity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = centity.cpp; sourceTree = "<group>"; };
+		CB9384EF166227CC00238139 /* centity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = centity.h; sourceTree = "<group>"; };
+		CB9384F1166227CC00238139 /* ceffects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ceffects.cpp; sourceTree = "<group>"; };
+		CB9384F2166227CC00238139 /* ceffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ceffects.h; sourceTree = "<group>"; };
+		CB9384F4166227CC00238139 /* cfx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cfx.cpp; sourceTree = "<group>"; };
+		CB9384F5166227CC00238139 /* cfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cfx.h; sourceTree = "<group>"; };
+		CB938505166227FE00238139 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		CB9385071662280500238139 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		CB9385091662280900238139 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		CB9385611662B81E00238139 /* engine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = engine.xcodeproj; path = ../engine/engine.xcodeproj; sourceTree = "<group>"; };
+		CB93856E1662BB9600238139 /* engine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = engine.framework; path = "../../../../Library/Developer/Xcode/DerivedData/frontend-ddoglybyxptxhpappbfikkzzumjm/Build/Products/Debug/engine.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB9384BA1662272900238139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB93856F1662BB9600238139 /* engine.framework in Frameworks */,
+				CB9385081662280500238139 /* OpenAL.framework in Frameworks */,
+				CB938506166227FE00238139 /* OpenGL.framework in Frameworks */,
+				CB93850A1662280900238139 /* GLUT.framework in Frameworks */,
+				CB9384C21662272900238139 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB9384B21662272900238139 = {
+			isa = PBXGroup;
+			children = (
+				CB9385611662B81E00238139 /* engine.xcodeproj */,
+				CB9384E2166227CC00238139 /* source */,
+				CB9384C71662272900238139 /* frontend */,
+				CB9384C01662272900238139 /* Frameworks */,
+				CB9384BF1662272900238139 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB9384BF1662272900238139 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384BE1662272900238139 /* frontend.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB9384C01662272900238139 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB93856E1662BB9600238139 /* engine.framework */,
+				CB9385091662280900238139 /* GLUT.framework */,
+				CB9385071662280500238139 /* OpenAL.framework */,
+				CB938505166227FE00238139 /* OpenGL.framework */,
+				CB9384C11662272900238139 /* Cocoa.framework */,
+				CB9384C31662272900238139 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB9384C31662272900238139 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384C41662272900238139 /* AppKit.framework */,
+				CB9384C51662272900238139 /* CoreData.framework */,
+				CB9384C61662272900238139 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CB9384C71662272900238139 /* frontend */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384C81662272900238139 /* Supporting Files */,
+			);
+			path = frontend;
+			sourceTree = "<group>";
+		};
+		CB9384C81662272900238139 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384C91662272900238139 /* frontend-Info.plist */,
+				CB9384CA1662272900238139 /* InfoPlist.strings */,
+				CB9384CD1662272900238139 /* frontend-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB9384E2166227CC00238139 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384E3166227CC00238139 /* debug.h */,
+				CB9384E4166227CC00238139 /* environment */,
+				CB9384E8166227CC00238139 /* ground */,
+			);
+			name = source;
+			path = ../../frontend/source;
+			sourceTree = "<group>";
+		};
+		CB9384E4166227CC00238139 /* environment */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384E5166227CC00238139 /* countdown */,
+			);
+			path = environment;
+			sourceTree = "<group>";
+		};
+		CB9384E5166227CC00238139 /* countdown */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384E6166227CC00238139 /* ccountdown.cpp */,
+				CB9384E7166227CC00238139 /* ccountdown.h */,
+			);
+			path = countdown;
+			sourceTree = "<group>";
+		};
+		CB9384E8166227CC00238139 /* ground */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384E9166227CC00238139 /* structures */,
+			);
+			path = ground;
+			sourceTree = "<group>";
+		};
+		CB9384E9166227CC00238139 /* structures */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384EA166227CC00238139 /* animation */,
+				CB9384ED166227CC00238139 /* entity */,
+			);
+			path = structures;
+			sourceTree = "<group>";
+		};
+		CB9384EA166227CC00238139 /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384EB166227CC00238139 /* canimation.cpp */,
+				CB9384EC166227CC00238139 /* canimation.h */,
+			);
+			path = animation;
+			sourceTree = "<group>";
+		};
+		CB9384ED166227CC00238139 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384EE166227CC00238139 /* centity.cpp */,
+				CB9384EF166227CC00238139 /* centity.h */,
+				CB9384F0166227CC00238139 /* effects */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		CB9384F0166227CC00238139 /* effects */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384F1166227CC00238139 /* ceffects.cpp */,
+				CB9384F2166227CC00238139 /* ceffects.h */,
+				CB9384F3166227CC00238139 /* fx */,
+			);
+			path = effects;
+			sourceTree = "<group>";
+		};
+		CB9384F3166227CC00238139 /* fx */ = {
+			isa = PBXGroup;
+			children = (
+				CB9384F4166227CC00238139 /* cfx.cpp */,
+				CB9384F5166227CC00238139 /* cfx.h */,
+			);
+			path = fx;
+			sourceTree = "<group>";
+		};
+		CB9385791662BD7C00238139 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB93857D1662BD7C00238139 /* engine.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CB9384BB1662272900238139 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9384F6166227CC00238139 /* debug.h in Headers */,
+				CB9384F8166227CC00238139 /* ccountdown.h in Headers */,
+				CB9384FA166227CC00238139 /* canimation.h in Headers */,
+				CB9384FC166227CC00238139 /* centity.h in Headers */,
+				CB9384FE166227CC00238139 /* ceffects.h in Headers */,
+				CB938500166227CC00238139 /* cfx.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CB9384BD1662272900238139 /* frontend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9384D31662272900238139 /* Build configuration list for PBXNativeTarget "frontend" */;
+			buildPhases = (
+				CB9384B91662272900238139 /* Sources */,
+				CB9384BA1662272900238139 /* Frameworks */,
+				CB9384BB1662272900238139 /* Headers */,
+				CB9384BC1662272900238139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = frontend;
+			productName = frontend;
+			productReference = CB9384BE1662272900238139 /* frontend.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB9384B41662272900238139 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "psycho games studios";
+			};
+			buildConfigurationList = CB9384B71662272900238139 /* Build configuration list for PBXProject "frontend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB9384B21662272900238139;
+			productRefGroup = CB9384BF1662272900238139 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CB9385791662BD7C00238139 /* Products */;
+					ProjectRef = CB9385611662B81E00238139 /* engine.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CB9384BD1662272900238139 /* frontend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CB93857D1662BD7C00238139 /* engine.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = engine.framework;
+			remoteRef = CB93857C1662BD7C00238139 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB9384BC1662272900238139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9384CC1662272900238139 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB9384B91662272900238139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9384F7166227CC00238139 /* ccountdown.cpp in Sources */,
+				CB9384F9166227CC00238139 /* canimation.cpp in Sources */,
+				CB9384FB166227CC00238139 /* centity.cpp in Sources */,
+				CB9384FD166227CC00238139 /* ceffects.cpp in Sources */,
+				CB9384FF166227CC00238139 /* cfx.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB9384CA1662272900238139 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB9384CB1662272900238139 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB9384D11662272900238139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CB9384D21662272900238139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CB9384D41662272900238139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_EMPTY_BODY = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/frontend-ddoglybyxptxhpappbfikkzzumjm/Build/Products/Debug\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "frontend/frontend-Prefix.pch";
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				INFOPLIST_FILE = "frontend/frontend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		CB9384D51662272900238139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_EMPTY_BODY = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/frontend-ddoglybyxptxhpappbfikkzzumjm/Build/Products/Debug\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "frontend/frontend-Prefix.pch";
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				INFOPLIST_FILE = "frontend/frontend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB9384B71662272900238139 /* Build configuration list for PBXProject "frontend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9384D11662272900238139 /* Debug */,
+				CB9384D21662272900238139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9384D31662272900238139 /* Build configuration list for PBXNativeTarget "frontend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9384D41662272900238139 /* Debug */,
+				CB9384D51662272900238139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB9384B41662272900238139 /* Project object */;
+}
