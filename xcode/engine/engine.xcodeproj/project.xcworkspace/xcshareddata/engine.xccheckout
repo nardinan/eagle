@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3B6899E7-E728-4176-90B4-181C57C85F4F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>engine</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F24B1DD8-0C48-45D4-B3FB-41DFFE639D97</key>
+		<string>https://github.com/nardinan/eagle.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>xcode/engine/engine.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F24B1DD8-0C48-45D4-B3FB-41DFFE639D97</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nardinan/eagle.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F24B1DD8-0C48-45D4-B3FB-41DFFE639D97</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F24B1DD8-0C48-45D4-B3FB-41DFFE639D97</string>
+			<key>IDESourceControlWCCName</key>
+			<string>eagle</string>
+		</dict>
+	</array>
+</dict>
+</plist>
